@@ -1,5 +1,10 @@
 # Giulio Catanzariti
 
+[![Website](https://img.shields.io/badge/Website-tacitus.me-0F766E)](https://tacitus.me)
+[![GitHub](https://img.shields.io/badge/GitHub-sargonxg-181717?logo=github)](https://github.com/sargonxg)
+[![Focus](https://img.shields.io/badge/focus-policy%20AI%20%7C%20conflict%20intelligence%20%7C%20context%20capsules-111827)](https://tacitus.me)
+[![Stack](https://img.shields.io/badge/stack-Rust%20%7C%20Python%20%7C%20TypeScript-blue)](https://github.com/sargonxg?tab=repositories)
+
 I build TACITUS: AI systems for policy, conflict analysis, and knowledge work where answers need provenance, review, and reusable context.
 
 My current work is focused on turning messy human material, including briefs, transcripts, policy documents, negotiations, books, and institutional records, into typed knowledge objects that analysts and agents can inspect together. The center of that work is a stack of source-grounded capsules, temporal graphs, conflict primitives, and human review flows.
