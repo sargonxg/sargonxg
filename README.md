@@ -1,48 +1,31 @@
 # Giulio Catanzariti
 
-[![Website](https://img.shields.io/badge/Website-tacitus.me-0F766E)](https://tacitus.me)
-[![GitHub](https://img.shields.io/badge/GitHub-sargonxg-181717?logo=github)](https://github.com/sargonxg)
-[![Focus](https://img.shields.io/badge/focus-policy%20AI%20%7C%20conflict%20intelligence%20%7C%20context%20capsules-111827)](https://tacitus.me)
-[![Stack](https://img.shields.io/badge/stack-Rust%20%7C%20Python%20%7C%20TypeScript-blue)](https://github.com/sargonxg?tab=repositories)
+**Diplomacy · Multilateral affairs · Political analysis**
 
-I build TACITUS: AI systems for policy, conflict analysis, and knowledge work where answers need provenance, review, and reusable context.
+Former United Nations staffer, based in New York. My focus is foreign policy, international cooperation, and how institutions navigate conflict and disagreement. Columbia University and Sciences Po alumnus.
 
-My current work is focused on turning messy human material, including briefs, transcripts, policy documents, negotiations, books, and institutional records, into typed knowledge objects that analysts and agents can inspect together. The center of that work is a stack of source-grounded capsules, temporal graphs, conflict primitives, and human review flows.
+I’m building **[TACITUS](https://www.tacitus.me)** to explore how technology can support that work: helping policy professionals organize evidence, trace commitments, and carry institutional knowledge into better briefings and decisions.
 
-Based in NYC. Building through [TACITUS](https://tacitus.me).
+[LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/) · [Writing](https://concordiadiscors.org/) · [TACITUS](https://www.tacitus.me)
 
-## Start Here
+## What I’m building
 
-| Project | What it shows |
-|---|---|
-| [DIALECTICA v3](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first context capsule engine for PRAXIS: source packs, schemas, review gates, capsule archives, and agent-facing contracts. |
-| [AGON](https://github.com/sargonxg/AGON) | Rust conflict-intelligence engine that extracts actors, claims, commitments, contradictions, friction patterns, and evidence spans from messy text. |
-| [KAIROS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) | Temporal knowledge graph engine for events, commitments, episodes, Allen-13 relations, and policy/crisis chronology. |
-| [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | Open benchmark for structural conflict reasoning, scored on typed graph output rather than prose summaries. |
-| [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Publishable notebook/reference pipeline for evidence-grounded conflict analysis over knowledge graphs. |
-| [CONCORDIA](https://github.com/sargonxg/H2_CONCORDIA_GHACK_SUBMISSION) | Hackathon voice mediation prototype with real-time dialogue, conflict ontology extraction, and settlement workflow. |
+The practical questions guide the tools: **Who said what? What changed? What remains disputed? What can we substantiate?**
 
-## What I Care About
+| Project | Purpose |
+| --- | --- |
+| [PRAXIS](https://www.tacitus.me/product/praxis) | A workbench in development for policy research, analysis, and drafting with sources and expert review. |
+| [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Organizing documents and evidence into reusable context packages for analysts and AI tools. |
+| [AGON](https://github.com/sargonxg/AGON) + [KAIROS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) | Experimental tools for mapping actors, claims, commitments, and the timing of events. |
+| [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | A benchmark in development for evaluating AI interpretation of policy and conflict texts. |
 
-- **Source-grounded AI**: outputs should point back to exact evidence, not just sound plausible.
-- **Human-gated automation**: analysts and experts should be able to inspect, reject, edit, and promote AI work.
-- **Typed reasoning objects**: context should move through systems as schemas, graphs, receipts, and capsules, not only chat transcripts.
-- **Policy and conflict intelligence**: the hard cases are temporal, contested, multi-actor, and full of institutional context.
-- **Small, testable engines**: keep the product experience simple and make the contracts, fixtures, tests, and adapters strong.
+I work across **Rust, Python, and TypeScript**, from knowledge models and data pipelines to APIs and web interfaces. These repositories document work in progress, with examples, methods, and limitations.
 
-## Stack
+## Writing & exchange
 
-Rust, Python, TypeScript, Axum, FastAPI, Next.js, PostgreSQL, knowledge graphs, JSON Schema, graph extraction, LLM orchestration, agent workflows, Cloud Run, Databricks, and Palantir Foundry.
+At **[Concordia Discors](https://concordiadiscors.org/)**, I write about international affairs, institutions, pluralism, and the human questions behind technology.
 
-## Current Focus
+- [On minilateralism and institutions that work](https://concordiadiscors.org/on-minilateralism-the-board-of-peace-and-the-unsentimental-case-for-institutions-that-work/)
+- [The conflict resolution machine and the human remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/)
 
-- PRAXIS as the visible workbench for reviewed policy/context capsules.
-- DIALECTICA as the ingestion, ontology, graph, and capsule engine.
-- AGON and KAIROS as specialized extraction engines for evidence/conflict and time/order.
-- TCGC as the public benchmark surface for measuring structural conflict reasoning.
-
-## Contact
-
-- Website: [tacitus.me](https://tacitus.me)
-- X: [@CatanzaGi](https://x.com/CatanzaGi)
-- GitHub: [@sargonxg](https://github.com/sargonxg)
+I welcome conversations with people working in diplomacy, multilateral institutions, policy research, and political knowledge tools. [Connect on LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/).
