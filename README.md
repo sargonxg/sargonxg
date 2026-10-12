@@ -26,6 +26,7 @@ The practical questions guide the tools: **Who said what? What changed? What rem
 | Project | Purpose |
 | --- | --- |
 | [PRAXIS](https://www.tacitus.me/product/praxis) | A policy workbench: bring documents, review proposed context, attach it to a question, and inspect the sourced answer. In active development. |
+| [Tacitus political/policy second brain](https://github.com/sargonxg/tacitus-political-policy-second-brain) | An EdgeQuake-based policy workbench in development, with a working evidence lab and native capsule tools. Full application integration is unfinished. |
 | [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Organizing documents and evidence into reusable context packages for analysts and AI tools. |
 | [AGON](https://github.com/sargonxg/AGON) + [KAIROS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) | Experimental tools for mapping actors, claims, commitments, and the timing of events. |
 | [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | A benchmark in development for evaluating AI interpretation of policy and conflict texts. |
