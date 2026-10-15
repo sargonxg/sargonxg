@@ -1,39 +1,43 @@
 # Giulio Catanzariti
 
-**Foreign policy · Diplomacy · Multilateral affairs**
+**Foreign policy · Multilateral affairs · Evidence-grounded AI for policy work**
 
-Former United Nations staffer, based in New York. My focus is foreign policy, international cooperation, and how institutions navigate conflict and disagreement. Columbia University and Sciences Po alumnus.
+Former United Nations political affairs officer, based in New York. Columbia SIPA and Sciences Po alumnus. My work connects political analysis, institutional knowledge, and software engineering.
 
-I’m building **[TACITUS](https://www.tacitus.me)** and **[PRAXIS](https://praxis.tacitus.me)** to bring that focus into practical tools: organizing evidence, tracing commitments, and making policy analysis easier to inspect, challenge, and reuse.
-
-My work connects **political analysis, institutional knowledge, and hands-on software building**. I’m interested in tools that help us understand complex situations, ask better questions, and produce better work.
+I am building **[TACITUS](https://www.tacitus.me)** and **[PRAXIS](https://praxis.tacitus.me)** to help analysts move from source material to defensible judgment: preserving attribution, chronology, uncertainty, review decisions, and the evidence behind an output.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-163047?style=flat-square)](https://www.linkedin.com/in/giuliocatanzariti/) [![Writing](https://img.shields.io/badge/Writing-Concordia_Discors-163047?style=flat-square)](https://concordiadiscors.org/) [![PRAXIS](https://img.shields.io/badge/PRAXIS-Explore_the_workbench-087f8c?style=flat-square)](https://praxis.tacitus.me)
 
 <a href="docs/knowledge-map.md">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/policy-knowledge-map-mobile.svg">
-    <img src="assets/policy-knowledge-map.svg" alt="A dense, layered TACITUS knowledge graph linking evidence, actors, claims, chronology and reasoning to reviewed context, caveated conclusions and proposed next steps." width="100%">
+    <img src="assets/policy-knowledge-map.svg" alt="TACITUS knowledge architecture linking sources, actors, claims, chronology, reasoning, review, and outputs." width="100%">
   </picture>
 </a>
 
 <sub>Architecture illustration · fictional policy scenario · [Explore the layers and current capabilities](docs/knowledge-map.md)</sub>
 
-## What I’m building
+## Selected work
 
-The practical questions guide the tools: **Who said what? What changed? What remains disputed? What can we substantiate?**
+| Project | Purpose | Current status |
+| --- | --- | --- |
+| [PRAXIS](https://www.tacitus.me/product/praxis) | Analyst-facing workbench for documents, evidence, context capsules, agentic workflows, and inspectable outputs. | Active product development |
+| [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first engine for building, validating, reviewing, and exporting portable, source-grounded PRAXIS Capsules. | Active public engine |
+| [Tacitus Policy Workbench](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based, local-first integration lab for document ingestion, knowledge graphs, policy context, review, and capsule portability. | Prototype; end-to-end runtime verification pending |
+| [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | Benchmark and corpus for evaluating whether AI systems preserve actors, evidence, commitments, contradictions, time, and provenance in policy and conflict texts. | Research build; measured leaderboard pending |
+| [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Reference notebooks for turning source documents into evidence-linked knowledge graphs for policy and conflict analysis. | Public reference implementation |
 
-| Project | Purpose |
-| --- | --- |
-| [PRAXIS](https://www.tacitus.me/product/praxis) | A policy workbench: bring documents, review proposed context, attach it to a question, and inspect the sourced answer. In active development. |
-| [Tacitus political/policy second brain](https://github.com/sargonxg/tacitus-political-policy-second-brain) | An EdgeQuake-based policy workbench in development, with a working evidence lab and native capsule tools. Full application integration is unfinished. |
-| [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Organizing documents and evidence into reusable context packages for analysts and AI tools. |
-| [AGON](https://github.com/sargonxg/AGON) + [KAIROS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) | Experimental tools for mapping actors, claims, commitments, and the timing of events. |
-| [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | A benchmark in development for evaluating AI interpretation of policy and conflict texts. |
+### Research modules
 
-I work across **Rust, Python, and TypeScript**, from knowledge models and data pipelines to APIs and web interfaces. These repositories document work in progress, with examples, methods, and limitations.
+[**AGON**](https://github.com/sargonxg/AGON) explores source-grounded extraction of actors, claims, commitments, contradictions, and friction patterns. [**KAIROS**](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) explores temporal knowledge graphs for events, commitments, episodes, and institutional change. Both are experimental research systems rather than production decision tools.
+
+I work across **Rust, Python, and TypeScript**, from knowledge models and data pipelines to APIs and web interfaces.
 
 [![Rust](https://img.shields.io/badge/Rust-263b4d?style=flat-square&logo=rust&logoColor=white)](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) [![Python](https://img.shields.io/badge/Python-263b4d?style=flat-square&logo=python&logoColor=white)](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) [![TypeScript](https://img.shields.io/badge/TypeScript-263b4d?style=flat-square&logo=typescript&logoColor=white)](https://www.tacitus.me/product/praxis) [![Knowledge graphs](https://img.shields.io/badge/Knowledge_graphs-087f8c?style=flat-square)](docs/knowledge-map.md) [![TCGC CI](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK/actions/workflows/ci.yml)
+
+## Working principles
+
+**Evidence before fluency. Time as first-class data. Human review over silent automation. Portable context over disposable prompts.** Public repositories distinguish demonstrated behavior from planned work and state their limitations directly.
 
 ## Writing & exchange
 
