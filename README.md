@@ -27,6 +27,8 @@ I am building **[TACITUS](https://www.tacitus.me)** and **[PRAXIS](https://praxi
 | [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | Benchmark and corpus for evaluating whether AI systems preserve actors, evidence, commitments, contradictions, time, and provenance in policy and conflict texts. | Research build; measured leaderboard pending |
 | [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Reference notebooks for turning source documents into evidence-linked knowledge graphs for policy and conflict analysis. | Public reference implementation |
 
+See the **[public project status map](docs/project-status.md)** for the distinction between active product work, research modules, reference implementations, and completed experiments.
+
 ### Research modules
 
 [**AGON**](https://github.com/sargonxg/AGON) explores source-grounded extraction of actors, claims, commitments, contradictions, and friction patterns. [**KAIROS**](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) explores temporal knowledge graphs for events, commitments, episodes, and institutional change. Both are experimental research systems rather than production decision tools.
