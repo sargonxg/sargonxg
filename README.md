@@ -21,13 +21,16 @@ I am building **[TACITUS](https://www.tacitus.me)** and **[PRAXIS](https://praxi
 
 | Project | Purpose | Current status |
 | --- | --- | --- |
-| [PRAXIS](https://www.tacitus.me/product/praxis) | Analyst-facing workbench for documents, evidence, context capsules, agentic workflows, and inspectable outputs. | Active product development |
+| [PRAXIS](https://www.tacitus.me/product/praxis) | Analyst-facing workbench for documents, evidence, context capsules, agentic workflows, and inspectable outputs. | Invitation-only; AI generation and paid upgrades paused |
+| [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Standalone local evidence inspector with recorded examples, opt-in pinned-core queries, and exact Context export. | Local developer tool; hosted multiuser operation unsupported |
 | [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first engine for building, validating, reviewing, and exporting portable, source-grounded PRAXIS Capsules. | Active public engine |
-| [Tacitus Policy Workbench](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based, local-first integration lab for document ingestion, knowledge graphs, policy context, review, and capsule portability. | Prototype; end-to-end runtime verification pending |
+| [Policy capsule core / integration lab](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based, local-first integration lab for document ingestion, knowledge graphs, policy context, review, and capsule portability. | Capsule-only developer workflow; full application verification pending |
 | [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | Benchmark and corpus for evaluating whether AI systems preserve actors, evidence, commitments, contradictions, time, and provenance in policy and conflict texts. | Research build; measured leaderboard pending |
 | [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Reference notebooks for turning source documents into evidence-linked knowledge graphs for policy and conflict analysis. | Public reference implementation |
 
 See the **[public project status map](docs/project-status.md)** for the distinction between active product work, research modules, reference implementations, and completed experiments.
+
+Start with the [standalone Workbench run guide](https://github.com/sargonxg/tacitus-workbench/blob/main/README.md) or the separate [capsule-only developer guide](https://github.com/sargonxg/tacitus-political-policy-second-brain/blob/main/docs/tacitus/LOCAL_CAPSULE_RELEASE.md). These local paths do not establish a working hosted PRAXIS attachment bridge or reviewed analytical truth.
 
 ### Research modules
 
