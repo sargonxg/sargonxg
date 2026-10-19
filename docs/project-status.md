@@ -8,9 +8,10 @@ _Last reviewed: 15 October 2026._
 
 | Project | Role | Public status |
 | --- | --- | --- |
-| [PRAXIS](https://praxis.tacitus.me) | Analyst-facing workbench for evidence, context capsules, agentic workflows, and inspectable outputs | Active product development; hosted behavior may change |
+| [PRAXIS](https://praxis.tacitus.me) | Analyst-facing workbench for evidence, context capsules, agentic workflows, and inspectable outputs | Invitation-only; AI generation and paid upgrades paused |
+| [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Standalone local evidence inspector with recorded examples and an opt-in pinned Rust core | Local developer tool; hosted multiuser operation unsupported |
 | [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first compiler, review, graph, storage, and export engine for PRAXIS Capsules | Active experimental engine; local contracts and fixture paths exist, full production integration is incomplete |
-| [Tacitus Policy Workbench](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based local-first integration environment for policy research | Active prototype; clean-host end-to-end verification remains a release gate |
+| [Policy capsule core / integration lab](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based local-first integration environment for policy research | Bounded capsule-only developer workflow; full application end-to-end verification remains a release gate |
 
 ## Active research modules
 
