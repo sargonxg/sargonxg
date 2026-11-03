@@ -1,54 +1,43 @@
 # Giulio Catanzariti
 
-**Foreign policy · Multilateral affairs · Evidence-grounded AI for policy work**
+**AI, Diplomacy, Middle East, Multilateralism**
 
-Former United Nations political affairs officer, based in New York. Columbia SIPA and Sciences Po alumnus. My work connects political analysis, institutional knowledge, and software engineering.
+Former United Nations Political Affairs Officer, Syria team. Based in New York. Columbia University, Sciences Po and LUISS graduate. My professional focus is diplomacy, Middle East political affairs and multilateral cooperation.
 
-I am building **[TACITUS](https://www.tacitus.me)** and **[PRAXIS](https://praxis.tacitus.me)** to help analysts move from source material to defensible judgment: preserving attribution, chronology, uncertainty, review decisions, and the evidence behind an output.
+Alongside that work, I develop independent research tools and publications. I am interested in how AI can help people inspect political evidence while preserving attribution, chronology and the distinction between source statements and analytical judgment.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-163047?style=flat-square)](https://www.linkedin.com/in/giuliocatanzariti/) [![Writing](https://img.shields.io/badge/Writing-Concordia_Discors-163047?style=flat-square)](https://concordiadiscors.org/) [![PRAXIS](https://img.shields.io/badge/PRAXIS-Explore_the_workbench-087f8c?style=flat-square)](https://praxis.tacitus.me)
+[LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/) · [Concordia Discors](https://concordiadiscors.org/) · [Next Diplomacy](https://nextdiplomacy.substack.com/) · [Project status](docs/project-status.md)
 
-<a href="docs/knowledge-map.md">
-  <picture>
-    <source media="(max-width: 600px)" srcset="assets/policy-knowledge-map-mobile.svg">
-    <img src="assets/policy-knowledge-map.svg" alt="TACITUS knowledge architecture linking sources, actors, claims, chronology, reasoning, review, and outputs." width="100%">
-  </picture>
-</a>
+## Two working tools
 
-<sub>Architecture illustration · fictional policy scenario · [Explore the layers and current capabilities](docs/knowledge-map.md)</sub>
+### Middle East context desk
 
-## Selected work
+![Actual public-source context desk, with a qualified political assertion and its source relationships](https://raw.githubusercontent.com/sargonxg/Syria-political-analysis/main/docs/images/context-desktop.png)
 
-| Project | Purpose | Current status |
-| --- | --- | --- |
-| [PRAXIS](https://www.tacitus.me/product/praxis) | Analyst-facing workbench for documents, evidence, context capsules, agentic workflows, and inspectable outputs. | Invitation-only; AI generation and paid upgrades paused |
-| [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Standalone local evidence inspector with recorded examples, opt-in pinned-core queries, and exact Context export. | Local developer tool; hosted multiuser operation unsupported |
-| [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first engine for building, validating, reviewing, and exporting portable, source-grounded PRAXIS Capsules. | Active public engine |
-| [Policy capsule core / integration lab](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based, local-first integration lab for document ingestion, knowledge graphs, policy context, review, and capsule portability. | Capsule-only developer workflow; full application verification pending |
-| [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | Benchmark and corpus for evaluating whether AI systems preserve actors, evidence, commitments, contradictions, time, and provenance in policy and conflict texts. | Research build; measured leaderboard pending |
-| [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Reference notebooks for turning source documents into evidence-linked knowledge graphs for policy and conflict analysis. | Public reference implementation |
+Follow a primary source through seven layers: sources, evidence, political context, ontology, time, method and your assessment. Inspect what resolution 2254 requests without presenting it as an implementation finding. Select cited material and export a brief or an AI-readable context. Syria is the first curated collection; other countries start as isolated, empty workspaces.
 
-See the **[public project status map](docs/project-status.md)** for the distinction between active product work, research modules, reference implementations, and completed experiments.
+[Source & quickstart](https://github.com/sargonxg/Syria-political-analysis) · [Local / Cloudflare build](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/context-layers.md)
 
-Start with the [standalone Workbench run guide](https://github.com/sargonxg/tacitus-workbench/blob/main/README.md) or the separate [capsule-only developer guide](https://github.com/sargonxg/tacitus-political-policy-second-brain/blob/main/docs/tacitus/LOCAL_CAPSULE_RELEASE.md). These local paths do not establish a working hosted PRAXIS attachment bridge or reviewed analytical truth.
+### TACITUS context explorer
 
-### Research modules
+Inspect the exact passages, attributed assertions, native context layers and omissions inside an exported policy context. The browser viewer accepts local JSON imports and preserves the original export bytes. The separate local workbench supports native capsule query and authoring with explicit opt-ins.
 
-[**AGON**](https://github.com/sargonxg/AGON) explores source-grounded extraction of actors, claims, commitments, contradictions, and friction patterns. [**KAIROS**](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) explores temporal knowledge graphs for events, commitments, episodes, and institutional change. Both are experimental research systems rather than production decision tools.
+[Source & screenshots](https://github.com/sargonxg/tacitus-workbench) · [Run the viewer](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/context-explorer.md)
 
-I work across **Rust, Python, and TypeScript**, from knowledge models and data pipelines to APIs and web interfaces.
+Recorded examples are labelled; annotations remain unreviewed. These tools do not establish a model-answer quality gain or a hosted multiuser service.
 
-[![Rust](https://img.shields.io/badge/Rust-263b4d?style=flat-square&logo=rust&logoColor=white)](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) [![Python](https://img.shields.io/badge/Python-263b4d?style=flat-square&logo=python&logoColor=white)](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) [![TypeScript](https://img.shields.io/badge/TypeScript-263b4d?style=flat-square&logo=typescript&logoColor=white)](https://www.tacitus.me/product/praxis) [![Knowledge graphs](https://img.shields.io/badge/Knowledge_graphs-087f8c?style=flat-square)](docs/knowledge-map.md) [![TCGC CI](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK/actions/workflows/ci.yml)
+## Independent projects
 
-## Working principles
+- **[TACITUS](https://www.tacitus.me):** research software for source-linked political context. The wider PRAXIS workspace remains invitation-only; AI generation and paid upgrades are paused.
+- **[Concordia Discors Magazine](https://concordiadiscors.org/):** an independent editorial project on political ideas, pluralism, conscience and culture.
+- **[Next Diplomacy](https://nextdiplomacy.substack.com/):** a publication in development on AI diplomacy, the Middle East, multilateralism and transatlantic cooperation.
 
-**Evidence before fluency. Time as first-class data. Human review over silent automation. Portable context over disposable prompts.** Public repositories distinguish demonstrated behavior from planned work and state their limitations directly.
+For writing, start with [The Questioner and the Republic](https://concordiadiscors.org/the-questioner-and-the-republic-on-alexander-karps-moral-vision-of-technology/) or [The Conflict Resolution Machine and the Human Remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/).
 
-## Writing & exchange
+## Engineering and research
 
-At **[Concordia Discors](https://concordiadiscors.org/)**, I write about international affairs, institutions, pluralism, and the human questions behind technology.
+I work in Rust, Python and TypeScript. [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) is an experimental capsule compiler; [KAIROS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) explores temporal graphs; [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) provides an alpha conflict-language corpus and evaluation toolkit. Their repository documentation distinguishes working contracts from pending integration and evaluation.
 
-- [On minilateralism and institutions that work](https://concordiadiscors.org/on-minilateralism-the-board-of-peace-and-the-unsentimental-case-for-institutions-that-work/)
-- [The conflict resolution machine and the human remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/)
+The [public status map](docs/project-status.md) records the scope of each repository. Source terms, qualifications and review states stay attached to examples.
 
-For foreign-policy research, collaboration, or a conversation about these tools: **[connect on LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/)**.
+For foreign-policy work, research or a conversation about the tools, [connect on LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/).
