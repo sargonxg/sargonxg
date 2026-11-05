@@ -2,15 +2,15 @@
 
 This page distinguishes the active product surface from research modules, reference implementations, and completed experiments. It is intended to prevent repository names or retained prototypes from being mistaken for current production services.
 
-_Working-tool entries updated: 3 November 2026. Other retained project boundaries follow the 15 October review._
+_Working-tool entries updated: 4 November 2026. Other retained project boundaries follow the 15 October review._
 
-## Active product and platform work
+## Independent infrastructure and workspace
 
 | Project | Role | Public status |
 | --- | --- | --- |
-| [PRAXIS](https://praxis.tacitus.me) | Analyst-facing workbench for evidence, context capsules, agentic workflows, and inspectable outputs | Invitation-only; AI generation and paid upgrades paused |
+| [PRAXIS](https://praxis.tacitus.me) | Agentic workspace for policy research | Paused; public recorded examples and local tooling remain available |
 | [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Local evidence inspector plus a static browser context explorer; exact source passages, qualified assertions, dates and omissions | Static viewer builds locally or as cloud assets; native query/authoring remain local opt-in workflows; hosted multiuser backend unsupported |
-| [Middle East public-source research kit](https://github.com/sargonxg/Syria-political-analysis) | Country-isolated source collection, political ontology, seven-layer context desk, source atlas and optional authenticated private notebook | Syria is the first curated collection; static public snapshot is cloud-buildable; durable private cases require the separate single-operator deployment |
+| [Middle East public-source research kit](https://github.com/sargonxg/Syria-political-analysis) | Country-isolated source collection, political ontology, seven-layer context desk, 55-profile source atlas, media-framing worksheet and optional authenticated private notebook | Syria is the first curated collection; static public snapshot is cloud-buildable; durable private cases require the separate single-operator deployment |
 | [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first compiler, review, graph, storage, and export engine for PRAXIS Capsules | Active experimental engine; local contracts and fixture paths exist, full production integration is incomplete |
 | [Policy capsule core / integration lab](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based local-first integration environment for policy research | Bounded capsule-only developer workflow; full application end-to-end verification remains a release gate |
 
@@ -53,8 +53,8 @@ Other archived public repositories may preserve earlier integrations, forks, hac
 
 Repository READMEs and licenses control the exact terms, limitations, and reuse conditions for each project.
 
-## Working-tool verification · 3 November 2026
+## Working-tool verification · 4 November 2026
 
-The Middle East context addition passed 60 Python tests and 24 browser assertions. The Workbench interface suite ran 45 tests: 40 passed and five native/collection acceptance checks were skipped. Both static builds passed Cloudflare configuration dry runs. Desktop/mobile automated accessibility scans returned no violations for the new views.
+The Middle East kit passed 66 Python tests. The new media worksheet passed 19 browser assertions, including publisher-attribution and asynchronous-export checks; four new desktop/mobile accessibility audits returned no violations. Eight data/research resources are typed separately from the 55 publisher and institutional profiles. The Workbench interface suite ran 45 tests: 40 passed and five native/collection acceptance checks were skipped. Both static builds passed Cloudflare configuration dry runs. Desktop/mobile automated accessibility scans returned no violations for the new views.
 
 This is scoped verification of those two tools. Rust engines, model-answer evaluation and full hosted integrations were not rerun. See each repository's context verification document for commands, source scope and limitations.

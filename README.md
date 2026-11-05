@@ -14,9 +14,9 @@ Alongside that work, I develop independent research tools and publications. I am
 
 ![Actual public-source context desk, with a qualified political assertion and its source relationships](https://raw.githubusercontent.com/sargonxg/Syria-political-analysis/main/docs/images/context-desktop.png)
 
-Follow a primary source through seven layers: sources, evidence, political context, ontology, time, method and your assessment. Inspect what resolution 2254 requests without presenting it as an implementation finding. Select cited material and export a brief or an AI-readable context. Syria is the first curated collection; other countries start as isolated, empty workspaces.
+Compare 55 publisher and institutional profiles, inspect ownership/funding qualifications and assess the framing of specific reports. Export quoted passages separately from an interpretation, alternative explanation and missing evidence. Eight data and research resources retain their own access prerequisites. Follow a primary source through seven layers: sources, evidence, political context, ontology, time, method and your assessment. Inspect what resolution 2254 requests without presenting it as an implementation finding. Select cited material and export a brief or an AI-readable context. Syria is the first curated collection; other countries start as isolated, empty workspaces.
 
-[Source & quickstart](https://github.com/sargonxg/Syria-political-analysis) · [Local / Cloudflare build](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/context-layers.md)
+[Source & quickstart](https://github.com/sargonxg/Syria-political-analysis) · [Source comparison / local build](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/media-assessment.md)
 
 ### TACITUS context explorer
 
@@ -26,11 +26,11 @@ Inspect the exact passages, attributed assertions, native context layers and omi
 
 Recorded examples are labelled; annotations remain unreviewed. These tools do not establish a model-answer quality gain or a hosted multiuser service.
 
-## Independent projects
+## Side projects
 
-- **[TACITUS](https://www.tacitus.me):** research software for source-linked political context. The wider PRAXIS workspace remains invitation-only; AI generation and paid upgrades are paused.
-- **[Concordia Discors Magazine](https://concordiadiscors.org/):** an independent editorial project on political ideas, pluralism, conscience and culture.
-- **[Next Diplomacy](https://nextdiplomacy.substack.com/):** a publication in development on AI diplomacy, the Middle East, multilateralism and transatlantic cooperation.
+- **[TACITUS](https://www.tacitus.me):** building AI data infrastructure for policy and political analysis. PRAXIS, the agentic workspace, is paused; public demonstrations remain available.
+- **[Concordia Discors Magazine](https://concordiadiscors.org/):** an editorial project on polarization, pluralism and civic virtue.
+- **[Next Diplomacy](https://nextdiplomacy.substack.com/):** a publication in development on AI policy, governance and diplomacy, alongside the [Age of Abundance account](https://x.com/AoAbundance).
 
 For writing, start with [The Questioner and the Republic](https://concordiadiscors.org/the-questioner-and-the-republic-on-alexander-karps-moral-vision-of-technology/) or [The Conflict Resolution Machine and the Human Remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/).
 
