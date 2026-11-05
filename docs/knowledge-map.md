@@ -22,13 +22,13 @@ The practical idea: a policy assessment should connect what sources say, who is 
 
 The nine layers follow the public [TACITUS capsule design](https://www.tacitus.me/capsules) and [DIALECTICA reference graph](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3/blob/main/fixtures/canonical-capsules/conflict-situation-capsule/graph.jsonld). They describe the architecture; they do not imply that every layer is complete in the live application.
 
-## Product and research
+## Current project boundaries
 
-**PRAXIS** is the policy workbench. **Context Capsules** hold reusable context. **DIALECTICA** is the engine project. **AGON** and **KAIROS** explore conflict structure and chronology; **TCGC** provides an evaluation framework.
+**TACITUS** is the independent AI data-infrastructure project for policy and political analysis. **PRAXIS**, its agentic workspace, is paused; sign-in remains invitation-only, and AI generation and paid upgrades are unavailable. Public recorded demonstrations and separate local tools remain available. **DIALECTICA** explores capsule compilation; **AGON** and **KAIROS** explore conflict structure and chronology; **TCGC** provides an alpha corpus and evaluation toolkit.
 
-As reviewed on **29 September 2026**, the current PRAXIS release supports the tested core flow of document upload, proposal review, capsule attachment, a sourced answer and saved history. This is a narrow functional result. Full portable context preservation, conversational ontology authoring, delegated research completion and expert evaluation of analysis quality remain development work.
+The **29 September 2026** review recorded a narrow functional checkpoint: document upload, proposal review, capsule attachment, a sourced answer and saved history. That historical result does not establish current generation availability or a production service. Full portable context preservation, conversational ontology authoring, delegated research completion and expert evaluation of analysis quality remain development work.
 
-Explore the [live PRAXIS workbench](https://praxis.tacitus.me), the [product explanation](https://www.tacitus.me/product/praxis), and the [public research](https://www.tacitus.me/research).
+Inspect the [public PRAXIS explanation and recorded tour](https://www.tacitus.me/product/praxis), the [standalone Workbench](https://github.com/sargonxg/tacitus-workbench), and the [Middle East research kit](https://github.com/sargonxg/Syria-political-analysis). Their exported context formats and acceptance boundaries differ; this architecture illustration does not establish interoperability between them. The [project map](project-status.md) records the current scope.
 
 ## Reproduce the visual
 

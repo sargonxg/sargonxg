@@ -1,16 +1,24 @@
 # TACITUS public project map
 
-This page distinguishes the active product surface from research modules, reference implementations, and completed experiments. It is intended to prevent repository names or retained prototypes from being mistaken for current production services.
+TACITUS is an independent project building AI data infrastructure for policy and political analysis. This map distinguishes runnable tools, paused workspace access, experimental engines and retained prototypes. Repository names and screenshots do not establish a production service.
 
-_Working-tool entries updated: 4 November 2026. Other retained project boundaries follow the 15 October review._
+_Profile and Workbench boundaries reviewed: 5 November 2026. The Middle East verification record below retains its 4 November scope; other retained project boundaries follow the 15 October review._
+
+## Three independent projects
+
+| Project | Focus |
+| --- | --- |
+| [TACITUS](https://www.tacitus.me) | AI data infrastructure and research tools for policy and political analysis. The Middle East kit and Workbench belong here. |
+| [Concordia Discors Magazine](https://concordiadiscors.org/) | Political ideas, polarization, pluralism and civic virtue. |
+| [Next Diplomacy](https://nextdiplomacy.substack.com/) | A publication in development on AI policy, governance and diplomacy. |
 
 ## Independent infrastructure and workspace
 
 | Project | Role | Public status |
 | --- | --- | --- |
 | [PRAXIS](https://praxis.tacitus.me) | Agentic workspace for policy research | Paused; public recorded examples and local tooling remain available |
-| [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Local evidence inspector plus a static browser context explorer; exact source passages, qualified assertions, dates and omissions | Static viewer builds locally or as cloud assets; native query/authoring remain local opt-in workflows; hosted multiuser backend unsupported |
-| [Middle East public-source research kit](https://github.com/sargonxg/Syria-political-analysis) | Country-isolated source collection, political ontology, seven-layer context desk, 55-profile source atlas, media-framing worksheet and optional authenticated private notebook | Syria is the first curated collection; static public snapshot is cloud-buildable; durable private cases require the separate single-operator deployment |
+| [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Static Context JSON viewer and separate local evidence inspector; exact source passages, qualified assertions, dates and omissions | Static and recorded local builds verified on 5 November. Native query/authoring are implemented opt-in paths, but full native acceptance was not rerun: Cargo is absent. Hosted multiuser backend unsupported. See the [current receipt](https://github.com/sargonxg/tacitus-workbench/blob/main/docs/READINESS_2026-11-05.md). |
+| [Middle East public-source research kit](https://github.com/sargonxg/Syria-political-analysis) | Country-isolated source collection, political ontology, seven-layer context desk, source atlas, media-framing worksheet and optional authenticated private notebook | Syria is the first curated collection; static public snapshot is cloud-buildable; durable private cases require the separate single-operator deployment |
 | [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first compiler, review, graph, storage, and export engine for PRAXIS Capsules | Active experimental engine; local contracts and fixture paths exist, full production integration is incomplete |
 | [Policy capsule core / integration lab](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based local-first integration environment for policy research | Bounded capsule-only developer workflow; full application end-to-end verification remains a release gate |
 
@@ -43,7 +51,8 @@ Other archived public repositories may preserve earlier integrations, forks, hac
 
 ## Status vocabulary
 
-- **Active product development:** part of the intended user-facing TACITUS or PRAXIS surface.
+- **Paused workspace:** PRAXIS service work is paused; a recorded demonstration does not establish generation availability.
+- **Runnable static or recorded tool:** the documented build and browser flow pass within the stated verification scope.
 - **Active prototype:** implementation work is current, but the stated release gate has not passed.
 - **Active experimental:** maintained research or engineering work whose interfaces may change.
 - **Alpha benchmark:** evaluation infrastructure exists, but definitive measured results are not yet published.
@@ -52,6 +61,12 @@ Other archived public repositories may preserve earlier integrations, forks, hac
 - **Superseded:** an architectural path that informed later work but is no longer the current direction.
 
 Repository READMEs and licenses control the exact terms, limitations, and reuse conditions for each project.
+
+## Workbench quickstart verification · 5 November 2026
+
+A clean npm install, TypeScript check, static viewer build and recorded local build passed. The documented Node-only preview loaded the recorded context and layer inspector. The default interface suite passed 40 tests and explicitly skipped five native/prepared-collection acceptance checks. Both example-preparation suites passed 11 tests, and onboarding source/download hashes matched the shipped archives. The [dated readiness receipt](https://github.com/sargonxg/tacitus-workbench/blob/main/docs/READINESS_2026-11-05.md) lists commands, skips and limits.
+
+Cargo is absent in this environment. The pinned build script correctly refuses before creating an output directory; that check is not a Rust build. No native integration, model evaluation, deployment or current PRAXIS availability was certified by this pass.
 
 ## Working-tool verification · 4 November 2026
 
