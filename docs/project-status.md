@@ -17,8 +17,8 @@ _Profile and Workbench boundaries reviewed: 5 November 2026. The Middle East ver
 | Project | Role | Public status |
 | --- | --- | --- |
 | [PRAXIS](https://praxis.tacitus.me) | Agentic workspace for policy research | Paused; public recorded examples and local tooling remain available |
-| [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Static Context JSON viewer and separate local evidence inspector; exact source passages, qualified assertions, dates and omissions | Static and recorded local builds verified on 5 November. Native query/authoring are implemented opt-in paths, but full native acceptance was not rerun: Cargo is absent. Hosted multiuser backend unsupported. See the [current receipt](https://github.com/sargonxg/tacitus-workbench/blob/main/docs/READINESS_2026-11-05.md). |
-| [Middle East public-source research kit](https://github.com/sargonxg/Syria-political-analysis) | Country-isolated source collection, political ontology, seven-layer context desk, source atlas, media-framing worksheet and optional authenticated private notebook | Syria is the first curated collection; static public snapshot is cloud-buildable; durable private cases require the separate single-operator deployment |
+| [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Static native Context viewer, a separate [research-selection reader](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/research-selection-reader.md), and a local evidence inspector | Browser readers retain imported bytes and keep their formats separate. Native query/authoring are implemented opt-in paths, but full native acceptance was not rerun: Cargo is absent. Hosted multiuser backend unsupported. See the [dated quickstart receipt](https://github.com/sargonxg/tacitus-workbench/blob/main/docs/READINESS_2026-11-05.md). |
+| [Middle East public-source research kit](https://github.com/sargonxg/Syria-political-analysis) | Historical event and country-indicator atlas, bounded query/export workflow, curated source/ontology desk and optional private notebook | [Clone/run/query guide](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/historical-atlas.md) and [actual source selections](https://github.com/sargonxg/Syria-political-analysis/tree/main/examples/historical-research) are available. Historical provider records and the curated political collection remain separate; private cases require the single-operator notebook. |
 | [DIALECTICA](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first compiler, review, graph, storage, and export engine for PRAXIS Capsules | Active experimental engine; local contracts and fixture paths exist, full production integration is incomplete |
 | [Policy capsule core / integration lab](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based local-first integration environment for policy research | Bounded capsule-only developer workflow; full application end-to-end verification remains a release gate |
 
@@ -61,6 +61,14 @@ Other archived public repositories may preserve earlier integrations, forks, hac
 - **Superseded:** an architectural path that informed later work but is no longer the current direction.
 
 Repository READMEs and licenses control the exact terms, limitations, and reuse conditions for each project.
+
+## Historical atlas and research handoff · 5 November 2026
+
+The atlas contains 113,656 UCDP GED 26.1 event records for 2011–2025 across nine provider country categories. A separate World Bank snapshot contains 15,272 non-null annual values, 32 indicators and ten economies; 5,848 returned null cells are documented rather than counted as data values. These dataset categories, periods and units retain their original source meaning. They do not determine borders or establish a causal relationship between events and national indicators.
+
+The working path is clone → build the static atlas → filter or run `research-query` → validate/export a bounded selection → reopen it in [Workbench’s research-selection reader](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/research-selection-reader.md). The [worked examples](https://github.com/sargonxg/Syria-political-analysis/tree/main/examples/historical-research) contain real provider rows and explicit matched/exported counts, with no generated analyst conclusion. Reopening a selection does not create a native capsule, run a model or attach records to paused PRAXIS.
+
+The source directory and political-ontology desk remain a separate curated collection: 55 source profiles and 228 context records. The large historical datasets do not expand that count or imply human review of every event. [Data, scope and reproduction](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/historical-atlas.md).
 
 ## Workbench quickstart verification · 5 November 2026
 

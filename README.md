@@ -18,17 +18,25 @@ For writing, start with [The Questioner and the Republic](https://concordiadisco
 
 ## Working tools within TACITUS
 
+### Historical research atlas
+
+![Historical event map and timeline using actual UCDP source records](https://raw.githubusercontent.com/sargonxg/Syria-political-analysis/main/docs/images/historical-atlas-map.png)
+
+Map and query 113,656 UCDP GED 26.1 event records for 2011–2025, alongside 15,272 non-null annual World Bank values across 32 indicators and ten economies. Inspect the original fields, dates, geographic precision and available years. Export a bounded research selection and reopen it in the Workbench reader, with the source versions, units and qualifications attached.
+
+[Clone, run and query](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/historical-atlas.md) · [Reproduce the worked selections](https://github.com/sargonxg/Syria-political-analysis/tree/main/examples/historical-research) · [Reopen a selection](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/research-selection-reader.md)
+
 ### Middle East context desk
 
 ![Actual public-source context desk, with a qualified political assertion and its source relationships](https://raw.githubusercontent.com/sargonxg/Syria-political-analysis/main/docs/images/context-desktop.png)
 
-Compare publisher and institutional profiles, inspect qualified ownership/funding records and assess the framing of a specific report. The context desk links primary evidence, political concepts, dates and an analyst’s assessment. Export a cited brief or structured context while retaining review states and missing evidence. Syria is the first curated collection; other countries begin as empty workspaces. The static public snapshot and optional single-operator private notebook have separate setup instructions.
+The separate curated desk contains 55 source profiles and 228 context records. Compare qualified ownership/funding records and assess the framing of a specific report. The political ontology links primary evidence, concepts, dates and an analyst’s assessment; historical event rows are not promoted into reviewed political claims. Syria is the first curated political collection. The static public snapshot and optional single-operator private notebook have separate setup instructions.
 
 [Source & quickstart](https://github.com/sargonxg/Syria-political-analysis) · [Source comparison / local build](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/media-assessment.md)
 
 ### TACITUS context explorer
 
-Inspect the exact passages, attributed assertions, context layers and omissions inside an exported policy context. The static browser viewer accepts local JSON imports and exports the original bytes. It needs no model account or native executable. The separate local workbench implements native query and bounded text authoring with explicit opt-ins and a pinned Rust build; those workflows have their own acceptance requirements.
+Inspect the exact passages, attributed assertions, context layers and omissions inside an exported native Context, or open a historical research selection in its separate reader. Both browser modes preserve the imported bytes. They need no model account or native executable. The separate local workbench implements native query and bounded text authoring with explicit opt-ins and a pinned Rust build; those workflows have their own acceptance requirements.
 
 [Source & screenshots](https://github.com/sargonxg/tacitus-workbench) · [Run the viewer](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/context-explorer.md)
 
