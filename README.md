@@ -8,7 +8,7 @@ Alongside my professional work, I build independent research tools and publicati
 
 [LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/) · [Concordia Discors](https://concordiadiscors.org/) · [Next Diplomacy](https://nextdiplomacy.substack.com/) · [Project status](docs/project-status.md)
 
-## Independent projects
+## Side projects
 
 - **[TACITUS](https://www.tacitus.me):** AI data infrastructure for policy and political analysis. The Middle East research desk, context explorer and experimental engines sit within this project. PRAXIS, the agentic workspace, is paused; public demonstrations remain available.
 - **[Concordia Discors Magazine](https://concordiadiscors.org/):** an editorial project on polarization, pluralism and civic virtue.

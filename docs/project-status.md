@@ -73,3 +73,7 @@ Cargo is absent in this environment. The pinned build script correctly refuses b
 The Middle East kit passed 66 Python tests. The new media worksheet passed 19 browser assertions, including publisher-attribution and asynchronous-export checks; four new desktop/mobile accessibility audits returned no violations. Eight data/research resources are typed separately from the 55 publisher and institutional profiles. The Workbench interface suite ran 45 tests: 40 passed and five native/collection acceptance checks were skipped. Both static builds passed Cloudflare configuration dry runs. Desktop/mobile automated accessibility scans returned no violations for the new views.
 
 This is scoped verification of those two tools. Rust engines, model-answer evaluation and full hosted integrations were not rerun. See each repository's context verification document for commands, source scope and limitations.
+
+## Entered evidence trail · 5 November 2026
+
+The Middle East source desk now draws only relationships supplied in a report comparison: publisher attribution, entered quotations and named upstream references. Analyst interpretation stays separate. The toolkit passed 67 Python tests and 54 browser assertions; four light/dark desktop/mobile accessibility scans reported zero violations or incomplete checks. Source counts and the saved news snapshot were not refreshed. The static public snapshot and separately authenticated private notebook remain different deployment choices.
