@@ -22,7 +22,7 @@ For writing, start with [The Questioner and the Republic](https://concordiadisco
 
 ![Historical event map and timeline using actual UCDP source records](https://raw.githubusercontent.com/sargonxg/Syria-political-analysis/main/docs/images/historical-atlas-map.png)
 
-Map and query 113,656 UCDP GED 26.1 event records for 2011–2025, alongside 15,272 non-null annual World Bank values across 32 indicators and ten economies. Inspect the original fields, dates, geographic precision and available years. Export a bounded research selection and reopen it in the Workbench reader, with the source versions, units and qualifications attached.
+Map and query 120,576 UCDP GED 26.1 event records for 2000–2025, alongside 15,272 non-null annual World Bank values across 32 indicators and ten economies. Inspect the original fields, dates, geographic precision and available years. Export a bounded research selection and reopen it in the Workbench reader, with the source versions, units and qualifications attached. Five semantic lenses expose provenance, concepts, time, geography and observations; a 2,048-record navigation slice keeps the source fields inspectable.
 
 [Clone, run and query](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/historical-atlas.md) · [Reproduce the worked selections](https://github.com/sargonxg/Syria-political-analysis/tree/main/examples/historical-research) · [Reopen a selection](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/research-selection-reader.md)
 
