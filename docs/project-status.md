@@ -2,7 +2,7 @@
 
 TACITUS is an independent project building AI data infrastructure for policy and political analysis. This map distinguishes runnable tools, paused workspace access, experimental engines and retained prototypes. Repository names and screenshots do not establish a production service.
 
-_Profile and Workbench boundaries reviewed: 5 November 2026. The Middle East verification record below retains its 4 November scope; other retained project boundaries follow the 15 October review._
+_Latest research-tool review: 6 November 2026. Earlier dated verification records below retain their original scope; other experimental-project boundaries follow the 15 October review._
 
 ## Three independent projects
 
@@ -61,6 +61,12 @@ Other archived public repositories may preserve earlier integrations, forks, hac
 - **Superseded:** an architectural path that informed later work but is no longer the current direction.
 
 Repository READMEs and licenses control the exact terms, limitations, and reuse conditions for each project.
+
+## Semantic exploration and working database · 6 November 2026
+
+The expanded atlas contains 120,576 retained GED records for 2000–2025 and 15,272 annual World Bank values. Five scoped vocabulary lenses expose actual provenance, concepts, time, geography and annual observations. A 2,048-record navigation slice is explicitly nonrepresentative. Workbench adds a separate semantic preparation mode; its downloads remain research selections rather than native capsules or a verified PRAXIS attachment.
+
+The source kit now builds a local SQLite database and a read-only Cloudflare D1 API. The owner-account database was remotely verified with all event/annual/profile/lens counts and 49 original fields per event. Public instructions cover local use, bounded queries and checkpointed cloud imports; there is no public shared analysis service. Source-kit CI passes on Linux and Windows, including 135 Python tests and eight Worker API tests. Workbench passes 79 tests, with five native-acceptance checks explicitly skipped. [Database workflow](https://github.com/sargonxg/Syria-political-analysis/tree/main/cloudflare) · [Semantic preparation](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/semantic-exploration.md).
 
 ## Historical atlas and research handoff · 5 November 2026
 
