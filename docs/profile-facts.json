@@ -1,0 +1,78 @@
+{
+  "format": "public-profile-facts/1",
+  "source": "Approved professional-profile facts in Gc-personal-site; source digest is for synchronization, not a proof of employment.",
+  "facts_sha256": "308f093dcc1078fc870ebb812feea9f40b20362e9161be692e536ba1fc7d44b7",
+  "name": "Giulio Catanzariti",
+  "focus": "AI, Diplomacy, Middle East, Multilateralism",
+  "opening": "Former UN Political Affairs Officer, Syria team.",
+  "direction": "Based in New York. Seeking roles in diplomacy, political affairs and AI governance.",
+  "education": [
+    {
+      "institution": "Columbia University",
+      "year": "2017",
+      "degree": "Master of International Affairs",
+      "school": "School of International and Public Affairs · Dual degree with Sciences Po",
+      "degrees": [
+        {
+          "year": "2017",
+          "title": "Master of International Affairs"
+        }
+      ]
+    },
+    {
+      "institution": "Sciences Po",
+      "year": "2017",
+      "degree": "Master in International Public Management",
+      "school": "Paris School of International Affairs · Now International Governance and Diplomacy",
+      "degrees": [
+        {
+          "year": "2017",
+          "title": "Master in International Public Management"
+        }
+      ]
+    },
+    {
+      "institution": "LUISS Guido Carli",
+      "year": "2012 · 2010",
+      "degree": "Master’s in Law and Economics · Bachelor’s in Economics, Financial Markets and Institutions",
+      "school": "Rome · Two degrees",
+      "degrees": [
+        {
+          "year": "2012",
+          "title": "Master’s in Law and Economics"
+        },
+        {
+          "year": "2010",
+          "title": "Bachelor’s in Economics, Financial Markets and Institutions"
+        }
+      ]
+    }
+  ],
+  "public_background": "https://www.sciencespo.fr/carrieres/en/news/giulio-catanzariti-political-affairs-officer-syria-team-of-the-un-department-of-political-and-peacebuilding-affairs/",
+  "side_projects": [
+    {
+      "name": "TACITUS",
+      "url": "https://www.tacitus.me/",
+      "role": "Independent developer and researcher",
+      "status": "Working research tools · PRAXIS paused",
+      "description": "AI data infrastructure for policy and political analysis. Source-linked research tools and reusable context; PRAXIS remains a paused prototype.",
+      "slug": "tacitus"
+    },
+    {
+      "name": "Concordia Discors Magazine",
+      "url": "https://concordiadiscors.org/",
+      "role": "Editor and contributor",
+      "status": "Published",
+      "description": "An editorial project on polarization, pluralism and civic virtue.",
+      "slug": "concordia-discors"
+    },
+    {
+      "name": "Next Diplomacy",
+      "url": "https://nextdiplomacy.substack.com/",
+      "role": "Writer · Publication in development",
+      "status": "In development",
+      "description": "Writing on AI policy, governance and diplomacy, with a focus on institutions and international cooperation.",
+      "slug": "next-diplomacy"
+    }
+  ]
+}
