@@ -53,7 +53,7 @@ all been built or reviewed line by line.
 python scripts/audit_portfolio.py --owner sargonxg --output /tmp/public-portfolio.md
 
 # Separate reference repository; Python 3.10+, no dependencies or API keys
-git clone https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open.git
+git clone --branch codex/political-semantic-layers-20261107 --single-branch https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open.git
 cd TACITUS-Knowledge-Pipeline-open
 python examples/context_capsule.py --budget-bytes 4000 --out /tmp/context-packet.json
 python -m unittest discover -s tests -v
@@ -66,8 +66,9 @@ python examples/political_semantics/semantic_layer.py recipes
 
 The context example has its own teaching format. It is not a claim of lossless
 interchange with PRAXIS or DIALECTICA capsule schemas, and deterministic source
-selection does not establish analytical accuracy. Repository commands in this
-review become available when their corresponding changes are merged.
+selection does not establish analytical accuracy. The clone command selects the
+review branch, so these examples can be run before the PR is merged. Check its
+source commit before using outputs in another system.
 
 The Cloudflare dataset is a historical 2000–2025 selected-country snapshot, not a
 live operational feed. R2 is not enabled in the inspected account and is not
