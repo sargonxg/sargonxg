@@ -110,7 +110,6 @@ D1 snapshot or asserting a measured improvement in generated reasoning.
 - [Praxis context and private data boundary](https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work/pull/40): 32 focused tests and remote verify/credential checks passed. The authenticated-persona lane failed at the existing context-readiness test's conversation-create fetch, with a separate descendant-cleanup error. The underlying browser error was not retained in the bounded receipts, so its cause remains unresolved. The local full suite separately reports 3,252 passes, one skip and the reproduced zombie-process cleanup failure.
 - [Political semantic layers and bounded context](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/pull/5): all 22 local tests passed; not merged or deployed.
 
-Merging the semantic PR was rejected by automatic approval review because it
-requires explicit approval for that main-branch publication/history change with
-external excerpts. No merge was performed. Production rollout and archiving also
-remain blocked by their separate deployment/administration access requirements.
+No merge or production rollout was performed. Archiving remains blocked by the
+integration's separate administration access requirement; live rollout requires
+the configured deployment identity and scoped service credentials.
