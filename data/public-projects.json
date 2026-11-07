@@ -1,0 +1,376 @@
+{
+  "reviewed_on": "2026-11-07",
+  "scope": "Public repositories only. Descriptions proposed for About fields; API administration permission is pending.",
+  "projects": [
+    {
+      "repository": "sargonxg/A3_DIALECTICAbyTACITUS_v3",
+      "description": "Rust-first capsule compiler and knowledge-engine development for source-linked policy research: schemas, review records, graph projections, CLI and MCP references.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/A4_PRAXIS_CLOUD_Work",
+      "description": "PRAXIS policy workspace with reviewed ContextCapsules, source-linked briefs and agent-run controls. Hosted generation is paused; local development continues.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/AGON",
+      "description": "Experimental Rust research on actors, claims, commitments and contradictions in policy documents. Source available; consult the all-rights-reserved license before reuse.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/AGON",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/cc-graph-TACITUS-upgrade",
+      "description": "Historical NEXUS graph application-generator experiment for conflict analysis. Preserved as research provenance; current successors are linked in the README.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/cc-graph-TACITUS-upgrade",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/H2_CONCORDIA_GHACK_SUBMISSION",
+      "description": "Completed CONCORDIA hackathon prototype exploring voice AI, mediation and structured dialogue. Runnable prototype scope and provider prerequisites are documented.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/H2_CONCORDIA_GHACK_SUBMISSION",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/KAIROS-temporal-vision-TACITUS",
+      "description": "Experimental Rust tools for source-linked timelines, events, episodes and commitments in diplomatic and policy documents. Separate from current capsule interchange contracts.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/sargonxg",
+      "description": "Giulio Catanzariti: diplomacy, political analysis and source-linked AI research tools. Public project map, runnable examples and engineering review.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/sargonxg",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/Syria-political-analysis",
+      "description": "Runnable Middle East research kit: historical conflict observations, annual indicators, a curated source/ontology desk, and bounded source-linked exports. No live-intelligence claim.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/Syria-political-analysis",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/TACITUS-Knowledge-Pipeline-open",
+      "description": "Runnable Python examples and notebooks for source-linked political data, task-specific semantic lenses, bounded context, and local JSON-LD/SQLite exports.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/tacitus-political-policy-second-brain",
+      "description": "EdgeQuake-based policy context integration lab. Bounded capsule-only developer workflow; complete application/runtime integration remains unfinished.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/tacitus-political-policy-second-brain",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/tacitus-workbench",
+      "description": "Local browser readers for source-linked Context JSON and historical research selections, with separate opt-in native capsule tooling. Formats and verification limits stay explicit.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/tacitus-workbench",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK",
+      "description": "Alpha policy/conflict evaluation toolkit with typed schemas, source spans and corpus validation. Public benchmark results require reproducible prediction artifacts.",
+      "archived": false,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/graphify_4TACITUS",
+      "description": "Historical Graphify integration fork for inspecting code/document graphs. Original tool attribution retained; current TACITUS-specific boundaries are documented.",
+      "archived": false,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/graphify_4TACITUS",
+      "default_branch": "v3",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/LEANN",
+      "description": "Upstream LEANN retrieval fork retained for local-search research. Consult upstream benchmarks and limitations; no TACITUS-specific performance result is claimed.",
+      "archived": false,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/LEANN",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/memvid",
+      "description": "Upstream Memvid memory-layer fork retained for research. Follow upstream formats, licenses and measured benchmark scope.",
+      "archived": false,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/memvid",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/open-ontologies",
+      "description": "Upstream ontology-engine fork for researching typed changes, validation and impact analysis. Preserve upstream ownership, license and proof boundaries.",
+      "archived": false,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/open-ontologies",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/parameter-golf-Giulio-train",
+      "description": "Historical upstream small-model training fork and conflict-domain evaluation experiments. No original-model or independently verified benchmark claim.",
+      "archived": false,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/parameter-golf-Giulio-train",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/A2_DIALECTICAbyTACITUS",
+      "description": "Archived Python/TypeScript DIALECTICA research prototype. Current capsule-engine development: sargonxg/A3_DIALECTICAbyTACITUS_v3.",
+      "archived": true,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/A2_DIALECTICAbyTACITUS",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/A_TACITUS_PipelineWork2026",
+      "description": "Archived early TACITUS conflict-analysis pipeline. Continue with DIALECTICA v3 or the runnable TACITUS-Knowledge-Pipeline-open examples.",
+      "archived": true,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/A_TACITUS_PipelineWork2026",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/H_CONCORDIA_DRAFT",
+      "description": "Archived CONCORDIA hackathon draft. Preserved as historical research, not a supported application.",
+      "archived": true,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/H_CONCORDIA_DRAFT",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/H_Pjt_NYC_GeminiLive_Med",
+      "description": "Archived Gemini Live mediation prototype. Historical hackathon work; provider-dependent sessions are not certified as currently available.",
+      "archived": true,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/H_Pjt_NYC_GeminiLive_Med",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/Hackaton_NYU_march26",
+      "description": "Archived empty hackathon placeholder retained for project history; no runnable source is advertised.",
+      "archived": true,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/Hackaton_NYU_march26",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/Hsimple_LiveAgent_CONCORDIA",
+      "description": "Archived early CONCORDIA live-agent experiment. Retained for hackathon provenance; use the documented successor projects.",
+      "archived": true,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/Hsimple_LiveAgent_CONCORDIA",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/tacitus-ontology",
+      "description": "Archived empty ontology placeholder. Current schemas and local vocabulary examples live in DIALECTICA v3 and TACITUS-Knowledge-Pipeline-open.",
+      "archived": true,
+      "fork": false,
+      "source_url": "https://github.com/sargonxg/tacitus-ontology",
+      "default_branch": "main",
+      "license": null,
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/caveman4tacitus",
+      "description": "Archived upstream skill fork retained for token-efficiency experiments. Preserve upstream attribution; no TACITUS-measured savings are claimed.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/caveman4tacitus",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/ConfliBERT-TACITUS_use",
+      "description": "Archived ConfliBERT upstream fork for political-conflict language-model research. Retains original attribution and model limitations.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/ConfliBERT-TACITUS_use",
+      "default_branch": "main",
+      "license": "GPL-3.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/cozo4TACITUS",
+      "description": "Archived Cozo upstream database fork retained for relational/graph/vector research. Follow upstream documentation and licensing; not a TACITUS production database claim.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/cozo4TACITUS",
+      "default_branch": "main",
+      "license": "MPL-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/create-context-graph4tacitus",
+      "description": "Archived upstream context-graph experiment. Historical integration reference with original attribution preserved.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/create-context-graph4tacitus",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/gbrain4tacitus",
+      "description": "Archived upstream agent-memory fork retained for research. Preserve original ownership, attribution and supported-runtime boundaries.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/gbrain4tacitus",
+      "default_branch": "master",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/genkitx-neo4j",
+      "description": "Archived upstream Genkit/Neo4j plugin fork retained as an integration reference. Consult upstream support and licensing.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/genkitx-neo4j",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/GraphLite4TACITUS",
+      "description": "Archived upstream GraphLite embedded-database fork. Historical graph-query integration research, not a current hosted service.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/GraphLite4TACITUS",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/langgraph4tacitus",
+      "description": "Archived LangGraph upstream fork retained for agent-runtime research. Original attribution and upstream interfaces apply.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/langgraph4tacitus",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/mempalace4TACITUS",
+      "description": "Archived upstream memory-system fork retained for evaluation. Original attribution preserved; benchmark claims require the upstream evidence.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/mempalace4TACITUS",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/mnemon",
+      "description": "Archived upstream persistent-memory fork retained for graph-recall experiments. Historical reference with original attribution.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/mnemon",
+      "default_branch": "master",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/regulatory-intelligence-assistant-4TACITUS",
+      "description": "Archived upstream regulatory-intelligence assistant fork. Historical semantic-search and policy-Q&A reference; no automated legal applicability is asserted.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/regulatory-intelligence-assistant-4TACITUS",
+      "default_branch": "main",
+      "license": "NOASSERTION",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/rig",
+      "description": "Archived upstream Rig Rust agent-framework fork retained for integration research. Original attribution and licensing apply.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/rig",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    },
+    {
+      "repository": "sargonxg/semantica4TACITUS",
+      "description": "Archived upstream Semantica fork retained for semantic-layer and context-graph research. Preserve original attribution and evaluation boundaries.",
+      "archived": true,
+      "fork": true,
+      "source_url": "https://github.com/sargonxg/semantica4TACITUS",
+      "default_branch": "main",
+      "license": "MIT",
+      "basis": "README/default-branch structure review; not a new runtime acceptance result"
+    }
+  ]
+}
