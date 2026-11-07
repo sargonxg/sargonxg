@@ -94,8 +94,9 @@ The [semantic-layer change](https://github.com/sargonxg/TACITUS-Knowledge-Pipeli
 adds five source records, eight short retained excerpts and ten typed statements.
 Official UN resolution, Geneva communiqué and mediation-guidance excerpts carry
 locators and hashes. Short Reuters wording retains the reporting/attribution
-chain. ILO material remains a candidate and is excluded from default evidence
-queries. All records explicitly lack human approval.
+chain. ILO Convention 190 wording is checked against an official UK treaty
+reproduction, with carrier publication distinct from adoption. Legal applicability
+remains unassessed. All records explicitly lack human approval.
 
 The four lenses are policy analysis, mediation, media/narrative review and HR
 policy. Five recipes cover resolution briefs, communiqué comparison, mediation
