@@ -22,11 +22,11 @@ TACITUS builds AI data infrastructure for policy and political analysis. Concord
 
 | Repository | What you can do | Scope |
 | --- | --- | --- |
-| [Middle East political analysis](https://github.com/sargonxg/Syria-political-analysis) | Explore 120,576 historical conflict observations and annual country data; inspect sources and export cited selections. | Runnable research tools |
+| [Middle East political analysis](https://github.com/sargonxg/Syria-political-analysis) | Explore historical conflict data, or trace a complete AI-policy instrument into a searchable store, typed assertions and a cited task prompt. | Runnable research tools |
 | [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Inspect source passages, attributed assertions and omissions; reopen historical research selections. | Local tools and browser readers |
-| [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | A smaller reference implementation for structured policy-research context. | Reference implementation |
+| [PRAXIS local context](https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work/tree/codex/policy-context-capsules-20261107) | Attach a supported capsule to a policy task; inspect evidence, export a bounded draft prompt and reopen it locally. | Runnable local CLI · hosted generation paused |
 
-The research kit’s [current review branch](https://github.com/sargonxg/Syria-political-analysis/tree/codex/local-query-resilience-20261106) adds policy-document selections, political-development records and inspectable examples. Source dates, original fields, review states and evidence gaps remain attached. Normative political objectives and organized-violence observations are separate evidence types.
+The research kit’s [current review branch](https://github.com/sargonxg/Syria-political-analysis/tree/codex/policy-document-knowledge-20261107) includes a complete AI-policy document case: captured text, indexed SQLite, a qualified JSON-LD graph and dependency-closed research prompts. Source dates, original fields, review states and evidence gaps remain attached. Normative political objectives and organized-violence observations are separate evidence types.
 
 For writing, start with [The Conflict Resolution Machine and the Human Remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/) or [The Questioner and the Republic](https://concordiadiscors.org/the-questioner-and-the-republic-on-alexander-karps-moral-vision-of-technology/), both co-bylined with CDM Editors.
 
