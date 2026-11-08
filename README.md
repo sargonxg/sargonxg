@@ -26,7 +26,9 @@ TACITUS builds AI data infrastructure for policy and political analysis. Concord
 | [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Inspect source passages, attributed assertions and omissions; reopen historical research selections. | Local tools and browser readers |
 | [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | A smaller reference implementation for structured policy-research context. | Reference implementation |
 
-The research kit’s [current review branch](https://github.com/sargonxg/Syria-political-analysis/tree/codex/local-query-resilience-20261106) adds policy-document selections, political-development records and inspectable examples. Source dates, original fields, review states and evidence gaps remain attached. Normative political objectives and organized-violence observations are separate evidence types.
+Start with the research kit’s [main-branch historical atlas guide](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/historical-atlas.md).
+The [five offline policy task workflows](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/blob/main/docs/POLITICAL_TASK_WORKFLOWS.md)
+produce source-linked preparation worksheets and independently verifiable packet receipts without API accounts.
 
 For writing, start with [The Conflict Resolution Machine and the Human Remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/) or [The Questioner and the Republic](https://concordiadiscors.org/the-questioner-and-the-republic-on-alexander-karps-moral-vision-of-technology/), both co-bylined with CDM Editors.
 

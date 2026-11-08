@@ -14,7 +14,9 @@ def render(data):
     for row in projects:
         if row['source_url'] != 'https://github.com/' + row['repository']:
             raise ValueError('Repository/source URL mismatch')
-        if not row['repository'].startswith('sargonxg/'):
+        if row.get('visibility') != 'public':
+            raise ValueError('Only explicitly verified public projects may be rendered')
+        if row['repository'].split('/', 1)[0] not in {'sargonxg', 'TACITUS-me'}:
             raise ValueError('Unexpected project owner')
     lines = ['# Public project map', '',
              f"Reviewed {data['reviewed_on']}. {len(projects)} public repositories; private projects are excluded.", '',
@@ -22,7 +24,7 @@ def render(data):
              'the [historical research kit](https://github.com/sargonxg/Syria-political-analysis), or '
              'the [local source readers](https://github.com/sargonxg/tacitus-workbench). '
              'Each repository documents its own setup and data boundaries.', '',
-             'The descriptions below are proposed repository About text. The map does not certify '
+             'The descriptions summarize reviewed source and repository scope. The map does not certify '
              'live service availability, benchmark performance, or permission to reuse source. '
              'Check the repository license and upstream attribution before reuse. '
              'PRAXIS hosted generation is paused.', '']
@@ -36,7 +38,7 @@ def render(data):
         for row in projects:
             if predicate(row):
                 description = row['description'].replace('|', '\\|').replace('\n', ' ')
-                name = row['repository'].split('/', 1)[1]
+                name = row['repository']
                 lines.append(f"| [{name}]({row['source_url']}) | {description} |")
         lines.append('')
     lines += ['## Maintain this map', '',
@@ -49,7 +51,7 @@ def render(data):
 
 
 if __name__ == '__main__':
-    data = json.loads((ROOT / 'data/public-projects.json').read_text())
+    data = json.loads((ROOT / 'data/public-projects.json').read_text(encoding='utf-8'))
     output = ROOT / 'docs/PUBLIC_PROJECT_MAP.md'
-    output.write_text(render(data))
+    output.write_text(render(data), encoding='utf-8')
     print(f"Rendered {len(data['projects'])} public projects to {output.relative_to(ROOT)}")

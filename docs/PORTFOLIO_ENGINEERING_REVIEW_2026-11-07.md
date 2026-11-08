@@ -1,5 +1,10 @@
 # TACITUS engineering review — November 7, 2026
 
+This is the historical predeployment checkpoint. The later
+[execution and usability review](PORTFOLIO_EXECUTION_2026-11-08.md) records the
+refreshed public catalog and subsequently executed checks. The original results
+below are retained with their original scope.
+
 This review separates reproducible local behavior, source implementation and
 deployed acceptance. Changes described below belong to a November 7 review
 checkpoint; an open pull request is not a production release.
