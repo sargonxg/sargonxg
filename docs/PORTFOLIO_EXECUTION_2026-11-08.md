@@ -99,3 +99,14 @@ does **not** mean every source line, build or integration was executed. All
 licenses and upstream attribution were preserved. Exact bytes, hashes and test
 counts establish reproducibility; they establish neither political truth nor
 improved reasoning, lower inference costs or media-bias detection.
+
+## Retained-fork attribution notices
+
+The original upstream README bodies were preserved byte-for-byte; only a bounded
+fork-status notice was prepended and read back from GitHub. No library build,
+model evaluation or training job was run for these documentation changes.
+
+- [sargonxg/LEANN](https://github.com/sargonxg/LEANN/commit/4dedfc6ed04c7dde6c77ea47509e4c26581467a7)
+- [sargonxg/memvid](https://github.com/sargonxg/memvid/commit/45e10d9fd6454beab4fe8dffc9052f2b661b9093)
+- [sargonxg/open-ontologies](https://github.com/sargonxg/open-ontologies/commit/95adce75a89b2467a3018f751433478b60fdbdf2)
+- [sargonxg/parameter-golf-Giulio-train](https://github.com/sargonxg/parameter-golf-Giulio-train/commit/63f48cdea9101134ab51db2b59fdf2f7593f6dc8)
