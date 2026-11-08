@@ -33,3 +33,5 @@ For writing, start with [The Conflict Resolution Machine and the Human Remainder
 [Project status and experimental work](docs/project-status.md) · [Profile presentation and suggested pins](docs/PROFILE-PRESENTATION.md)
 
 [Engineering review and 30 improvements](docs/PORTFOLIO_ENGINEERING_REVIEW_2026-11-07.md) · [Reproduce the public repository audit](scripts/audit_portfolio.py)
+
+[Browse all public projects, prototypes and upstream references](docs/PUBLIC_PROJECT_MAP.md)
