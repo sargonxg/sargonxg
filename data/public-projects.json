@@ -1,5 +1,5 @@
 {
-  "reviewed_on": "2026-11-08",
+  "reviewed_on": "2026-11-10",
   "scope": "44 verified public repositories accessible through the authenticated account, including TACITUS-me organization projects. Private repositories and security findings are excluded.",
   "projects": [
     {
@@ -49,13 +49,13 @@
     {
       "repository": "sargonxg/AGON",
       "visibility": "public",
-      "description": "Experimental Rust research on actors, claims, commitments and contradictions in policy documents. Source available; consult the all-rights-reserved license before reuse.",
+      "description": "Experimental Rust conflict-analysis modules plus a runnable exact-evidence CLI. Quote/hash and Unicode bounds checks tested locally. Existing all-rights-reserved license applies.",
       "archived": false,
       "fork": false,
       "source_url": "https://github.com/sargonxg/AGON",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
     },
     {
       "repository": "sargonxg/caveman4tacitus",
@@ -214,13 +214,13 @@
     {
       "repository": "sargonxg/KAIROS-temporal-vision-TACITUS",
       "visibility": "public",
-      "description": "Experimental Rust temporal analysis for policy and institutional text. See LICENSE for Apache 2.0 terms; model-backed and hosted acceptance are separate.",
+      "description": "Experimental Rust temporal analysis. Local default now binds loopback, container binding is explicit. Tests and mock server checked; live model extraction remains separate.",
       "archived": false,
       "fork": false,
       "source_url": "https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
     },
     {
       "repository": "sargonxg/langgraph4tacitus",
@@ -346,24 +346,24 @@
     {
       "repository": "sargonxg/Syria-political-analysis",
       "visibility": "public",
-      "description": "Runnable historical research atlas and local queries over attributed UCDP and World Bank records. Retains dates, fields, source manifests and applicability limits.",
+      "description": "Historical Middle East research atlas and source toolkit. Exports curated semantic-document records and required context to the separate policy drafting pipeline; no current situation assessment.",
       "archived": false,
       "fork": false,
       "source_url": "https://github.com/sargonxg/Syria-political-analysis",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
     },
     {
       "repository": "sargonxg/TACITUS-Knowledge-Pipeline-open",
       "visibility": "public",
-      "description": "Runnable standard-library policy workflows: resolutions, communiqués, mediation, media and HR review. Attributed passages, exact byte receipts, omissions and offline verification.",
+      "description": "Runnable policy-data pipeline with exact sources, ontology validation, bounded context, explicit model adapters and a tested two-step evidence-inspection agent. Real Cloudflare recordings; general quality gains remain unproven.",
       "archived": false,
       "fork": false,
       "source_url": "https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
     },
     {
       "repository": "sargonxg/tacitus-ontology",
@@ -390,24 +390,24 @@
     {
       "repository": "sargonxg/tacitus-workbench",
       "visibility": "public",
-      "description": "Local recorded-mode workbench and offline evidence readers. Windows component-resolution fix validated by builds; native and Linux-only acceptance remain separate.",
+      "description": "Static/local evidence workbench, including a reader for actual model-assisted policy drafts, exact citations, retained qualifications and recorded agent steps. Not a verified hosted PRAXIS bridge.",
       "archived": false,
       "fork": false,
       "source_url": "https://github.com/sargonxg/tacitus-workbench",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
     },
     {
       "repository": "sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK",
       "visibility": "public",
-      "description": "Alpha policy/conflict evaluation toolkit with typed schemas, source spans and corpus validation. Public benchmark results require reproducible prediction artifacts.",
+      "description": "Alpha conflict-grammar corpus and scorer; separate inspector for actual policy-workflow recordings. CC BY-NC-SA 4.0. Reference integrity is not a semantic-quality benchmark.",
       "archived": false,
       "fork": false,
       "source_url": "https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
     },
     {
       "repository": "TACITUS-me/.github",

@@ -1,6 +1,6 @@
 # Public project map
 
-Reviewed 2026-11-08. 44 public repositories; private projects are excluded.
+Reviewed 2026-11-10. 44 public repositories; private projects are excluded.
 
 Start with the [political-data reference examples](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open), the [historical research kit](https://github.com/sargonxg/Syria-political-analysis), or the [local source readers](https://github.com/sargonxg/tacitus-workbench). Each repository documents its own setup and data boundaries.
 
@@ -12,16 +12,16 @@ The descriptions summarize reviewed source and repository scope. The map does no
 | --- | --- |
 | [sargonxg/A3_DIALECTICAbyTACITUS_v3](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Rust-first capsule compiler and knowledge-engine development for source-linked policy research: schemas, review records, graph projections, CLI and MCP references. |
 | [sargonxg/A4_PRAXIS_CLOUD_Work](https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work) | PRAXIS: invitation-only policy workspace for source-linked context and reviewable briefs. Hosted AI generation and paid upgrades are paused. |
-| [sargonxg/AGON](https://github.com/sargonxg/AGON) | Experimental Rust research on actors, claims, commitments and contradictions in policy documents. Source available; consult the all-rights-reserved license before reuse. |
+| [sargonxg/AGON](https://github.com/sargonxg/AGON) | Experimental Rust conflict-analysis modules plus a runnable exact-evidence CLI. Quote/hash and Unicode bounds checks tested locally. Existing all-rights-reserved license applies. |
 | [sargonxg/cc-graph-TACITUS-upgrade](https://github.com/sargonxg/cc-graph-TACITUS-upgrade) | Historical NEXUS graph application-generator experiment for conflict analysis. Retained code and upstream attribution; not a production reasoning system. |
 | [sargonxg/H2_CONCORDIA_GHACK_SUBMISSION](https://github.com/sargonxg/H2_CONCORDIA_GHACK_SUBMISSION) | Completed CONCORDIA hackathon prototype exploring voice AI, mediation and structured dialogue. Runnable prototype scope and provider prerequisites are documented. |
-| [sargonxg/KAIROS-temporal-vision-TACITUS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) | Experimental Rust temporal analysis for policy and institutional text. See LICENSE for Apache 2.0 terms; model-backed and hosted acceptance are separate. |
+| [sargonxg/KAIROS-temporal-vision-TACITUS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) | Experimental Rust temporal analysis. Local default now binds loopback, container binding is explicit. Tests and mock server checked; live model extraction remains separate. |
 | [sargonxg/sargonxg](https://github.com/sargonxg/sargonxg) | Giulio Catanzariti: diplomacy, political analysis and source-linked AI research tools. Public project map, runnable examples and engineering review. |
-| [sargonxg/Syria-political-analysis](https://github.com/sargonxg/Syria-political-analysis) | Runnable historical research atlas and local queries over attributed UCDP and World Bank records. Retains dates, fields, source manifests and applicability limits. |
-| [sargonxg/TACITUS-Knowledge-Pipeline-open](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Runnable standard-library policy workflows: resolutions, communiqués, mediation, media and HR review. Attributed passages, exact byte receipts, omissions and offline verification. |
+| [sargonxg/Syria-political-analysis](https://github.com/sargonxg/Syria-political-analysis) | Historical Middle East research atlas and source toolkit. Exports curated semantic-document records and required context to the separate policy drafting pipeline; no current situation assessment. |
+| [sargonxg/TACITUS-Knowledge-Pipeline-open](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Runnable policy-data pipeline with exact sources, ontology validation, bounded context, explicit model adapters and a tested two-step evidence-inspection agent. Real Cloudflare recordings; general quality gains remain unproven. |
 | [sargonxg/tacitus-political-policy-second-brain](https://github.com/sargonxg/tacitus-political-policy-second-brain) | EdgeQuake-based policy context integration lab. Bounded capsule-only developer workflow; complete application/runtime integration remains unfinished. |
-| [sargonxg/tacitus-workbench](https://github.com/sargonxg/tacitus-workbench) | Local recorded-mode workbench and offline evidence readers. Windows component-resolution fix validated by builds; native and Linux-only acceptance remain separate. |
-| [sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | Alpha policy/conflict evaluation toolkit with typed schemas, source spans and corpus validation. Public benchmark results require reproducible prediction artifacts. |
+| [sargonxg/tacitus-workbench](https://github.com/sargonxg/tacitus-workbench) | Static/local evidence workbench, including a reader for actual model-assisted policy drafts, exact citations, retained qualifications and recorded agent steps. Not a verified hosted PRAXIS bridge. |
+| [sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | Alpha conflict-grammar corpus and scorer; separate inspector for actual policy-workflow recordings. CC BY-NC-SA 4.0. Reference integrity is not a semantic-quality benchmark. |
 | [TACITUS-me/.github](https://github.com/TACITUS-me/.github) | Organization profile and public orientation for TACITUS. |
 | [TACITUS-me/DIALECTICA_by_TACITUS_A2](https://github.com/TACITUS-me/DIALECTICA_by_TACITUS_A2) | Earlier Python DIALECTICA prototype. Preserved predecessor; current Rust-first engine development is sargonxg/A3_DIALECTICAbyTACITUS_v3. |
 | [TACITUS-me/Open_Starting_Kpipeline_TACITUS](https://github.com/TACITUS-me/Open_Starting_Kpipeline_TACITUS) | Early open knowledge-pipeline notebook. Preserved reference; use sargonxg/TACITUS-Knowledge-Pipeline-open for the current offline political-data workflows. |

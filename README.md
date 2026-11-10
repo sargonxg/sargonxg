@@ -30,10 +30,18 @@ Start with the research kit’s [main-branch historical atlas guide](https://git
 The [five offline policy task workflows](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/blob/main/docs/POLITICAL_TASK_WORKFLOWS.md)
 produce source-linked preparation worksheets and independently verifiable packet receipts without API accounts.
 
+## A working policy-AI example
+
+[Prepare a historical Syria briefing with a bounded evidence-inspection agent](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/blob/main/reference-pipeline/docs/model-workflows.md), then [inspect the real draft and exact evidence in Workbench](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/policy-workflow.md).
+
+![Actual model draft inspected beside its historical source](assets/tacitus-policy-workflow.png)
+
+Cloudflare model execution and local evidence checks are recorded. A valid citation does not establish semantic entailment; broader saliency and efficiency benefits remain to be measured. [Research index: 12 primary paper links and implementation notes](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/tree/main/research).
+
 For writing, start with [The Conflict Resolution Machine and the Human Remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/) or [The Questioner and the Republic](https://concordiadiscors.org/the-questioner-and-the-republic-on-alexander-karps-moral-vision-of-technology/), both co-bylined with CDM Editors.
 
 [Project status and experimental work](docs/project-status.md) · [Profile presentation and suggested pins](docs/PROFILE-PRESENTATION.md)
 
 [Engineering review and 30 improvements](docs/PORTFOLIO_ENGINEERING_REVIEW_2026-11-07.md) · [Reproduce the public repository audit](scripts/audit_portfolio.py)
 
-[Browse all public projects, prototypes and upstream references](docs/PUBLIC_PROJECT_MAP.md)
+[Browse all public projects, prototypes and upstream references](docs/PUBLIC_PROJECT_MAP.md) · [Verified workflows and measured limits](docs/VERIFIED_WORKFLOWS_2026-11-10.md)
