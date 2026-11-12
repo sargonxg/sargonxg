@@ -33,4 +33,11 @@ class PublicCatalogTests(unittest.TestCase):
             if mutation == 'url': data['projects'][0]['source_url'] = 'https://example.invalid'
             with self.assertRaises(ValueError): render(data)
 
+    def test_lifecycle_recommendations_cannot_claim_execution(self):
+        for mutation in ['executed', 'unknown']:
+            data = copy.deepcopy(self.data)
+            if mutation == 'executed': data['projects'][0]['lifecycle_executed'] = True
+            else: data['projects'][0]['proposed_lifecycle'] = 'DELETE_IMMEDIATELY'
+            with self.assertRaises(ValueError): render(data)
+
 if __name__ == '__main__': unittest.main()

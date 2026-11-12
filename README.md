@@ -26,13 +26,15 @@ The aim is a practical data layer for people and AI tools: preserve the source, 
 
 The public tools below already support parts of that loop: historical research selections, source-linked context assembly and evidence inspection. Experimental engines explore portable context, conflict structure and time. Their formats and release gates remain distinct; broader integration and measurable improvements in analytical quality are work in progress. PRAXIS generation and paid upgrades remain paused.
 
-[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md) · [A specific next action for each public repository](docs/REPOSITORY_PRIORITIES.md)
+[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md) · [A specific next action for each public repository](docs/REPOSITORY_PRIORITIES.md) · [Focused product direction, lifecycle proposals and the next 20 actions](docs/GROWTH_PLAN.md)
 
-### Enter the House of Evidence
+### A research guild, built around useful work
 
-![Original TACITUS Source Workshop illustration: sources linked to structure, context and human review](assets/tacitus-source-workshop-8bit.png)
+![Original fictional TACITUS Research Guild: sources, institutional context, specialist researchers and human review](assets/tacitus-research-guild-8bit.png)
 
-The illustration shows the source-to-review workflow. [Artwork, fictional elements and reuse](docs/VISUAL_IDENTITY.md).
+The goal is one policy research workspace: apply sources, institutional procedure and private organisational context to a useful reviewed brief. A separate [invited App](https://app.tacitus.me/) is developing that experience; the public tools below demonstrate bounded parts of the workflow. Broader specialist coordination and measured customer benefit remain development work. This original fictional illustration shows that direction, not a live feature screenshot. [Artwork, invented elements and reuse](docs/VISUAL_IDENTITY.md).
+
+### Play the House of Evidence
 
 Play the separate original 8-bit-style point-and-click adventure: preserve a condition, attribute a statement, check the clock and export a brief with its uncertainty intact. The harbor case is fictional. The game teaches the workflow; it is separate from the research engines.
 

@@ -28,3 +28,11 @@ The original four-room **House of Evidence** adventure remains separate. Its eng
 
 - `tacitus-source-workshop-8bit.png` — SHA-256 `69f70f05b35807fc7d8af90f16b65bb398802d29b932c759a8b46de5387dbffd`.
 - `tacitus-evidence-observatory-8bit.png` — SHA-256 `f85438be2f1d29850bee9f05683e34c5f688cdc89cdc364bf3a9aa6ae5cbbdb9`.
+
+## The Research Guild: a product direction
+
+![Original fictional TACITUS research guild](../assets/tacitus-research-guild-8bit.png)
+
+Generated with OpenAI image generation on 12 November 2026. Original fictional concept art showing saved sources, institutional context, specialist work and a human reviewer. The people, scrolls, dates and papers are invented. This illustrates the longer-term product goal; it is not a screenshot or a claim that every specialist agent or institutional pack is live. No existing game assets, characters or scenes were copied. The existing game and current application interfaces retain their separate scope.
+
+`tacitus-research-guild-8bit.png` — SHA-256 `e46887d05cd9ff9925e9216690ff4c02ce924937ab373efd8c99716d88b8f5a0`.
