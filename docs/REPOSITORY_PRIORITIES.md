@@ -1,5 +1,7 @@
 # Public TACITUS repository priorities
 
+Current direction and maintenance follow-up: [12 November implementation checkpoint](GROWTH_PLAN.md#current-independent-verification). This document retains the earlier checkpoint; later native checks and archival preparation are recorded there.
+
 Reviewed 12 November 2026 (America/New_York). This version contains public repositories only.
 
 Improvement and release acceptance are separate. Current default branches, experimental work and open source PRs have distinct scopes. Native/upstream performance, hosted deployment and model-quality claims still require their named evidence.

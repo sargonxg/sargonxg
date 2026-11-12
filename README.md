@@ -24,9 +24,11 @@ Policy work repeatedly loses context: a quotation becomes a summary, a condition
 
 The aim is a practical data layer for people and AI tools: preserve the source, structure who said what and when, select context for a concrete task, and keep the resulting draft attached to its evidence and human review. A researcher should be able to reopen the reasoning materials instead of starting from scratch. A software agent should receive a bounded task and traceable context rather than an unexplained pile of text.
 
+The current App direction is a private-by-default workspace for small teams in **corporate policy, conflict analysis and US/EU legislative analysis**. Teams select saved evidence and curated packs, request bounded research when needed, and review an evidence-linked output. Invited testers remain free; commercial offers use quotes based on seats and measured usage. Release acceptance and analyst evaluation remain in progress.
+
 The public tools below already support parts of that loop: historical research selections, source-linked context assembly and evidence inspection. Experimental engines explore portable context, conflict structure and time. Their formats and release gates remain distinct; broader integration and measurable improvements in analytical quality are work in progress. PRAXIS generation and paid upgrades remain paused.
 
-[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md) · [A specific next action for each public repository](docs/REPOSITORY_PRIORITIES.md) · [Focused product direction, lifecycle proposals and the next 20 actions](docs/GROWTH_PLAN.md)
+[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md) · [A specific next action for each public repository](docs/REPOSITORY_PRIORITIES.md) · [Three-domain direction, maintenance status and 20 priorities](docs/GROWTH_PLAN.md) · [Prepared expert/user validation protocol](docs/VALIDATION_PROTOCOL.md)
 
 ### A research guild, built around useful work
 

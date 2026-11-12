@@ -1,5 +1,7 @@
 # Public project readiness and twenty refinements
 
+Current direction and maintenance follow-up: [12 November implementation checkpoint](GROWTH_PLAN.md#current-independent-verification). This document retains the earlier checkpoint; later native checks and archival preparation are recorded there.
+
 Reviewed 12 November 2026. See the [repository-specific priorities and acceptance criteria](REPOSITORY_PRIORITIES.md) for the latest next action and graphics decision for every public repository. Local/fixture acceptance and historical or experimental scope are explicit. No hosted production or analytical-quality certification is inferred from build checks. Personal work and archives retain their independent role.
 
 | Repository | Ready now | Evidence | Next useful gate |
