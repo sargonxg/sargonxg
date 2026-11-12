@@ -26,7 +26,7 @@ The aim is a practical data layer for people and AI tools: preserve the source, 
 
 The public tools below already support parts of that loop: historical research selections, source-linked context assembly and evidence inspection. Experimental engines explore portable context, conflict structure and time. Their formats and release gates remain distinct; broader integration and measurable improvements in analytical quality are work in progress. PRAXIS generation and paid upgrades remain paused.
 
-[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md)
+[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md) · [A specific next action for each public repository](docs/REPOSITORY_PRIORITIES.md)
 
 ### Enter the House of Evidence
 
