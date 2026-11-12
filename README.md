@@ -30,9 +30,11 @@ The public tools below already support parts of that loop: historical research s
 
 ### Enter the House of Evidence
 
-![The original TACITUS House of Evidence: a library, map room, clock archive and analyst study](tacitus-demo/mansion.png)
+![Original TACITUS Source Workshop illustration: sources linked to structure, context and human review](assets/tacitus-source-workshop-8bit.png)
 
-An original, playable 8-bit-style point-and-click adventure: preserve a condition, attribute a statement, check the clock and export a brief with its uncertainty intact. The harbor case is fictional. The game teaches the workflow; it is separate from the research engines.
+The illustration shows the source-to-review workflow. [Artwork, fictional elements and reuse](docs/VISUAL_IDENTITY.md).
+
+Play the separate original 8-bit-style point-and-click adventure: preserve a condition, attribute a statement, check the clock and export a brief with its uncertainty intact. The harbor case is fictional. The game teaches the workflow; it is separate from the research engines.
 
 ```sh
 git clone https://github.com/sargonxg/sargonxg.git
