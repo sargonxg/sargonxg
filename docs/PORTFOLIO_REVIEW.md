@@ -64,3 +64,26 @@ The source and demo improvements are prepared on review branches. They do not au
 - No policy-quality, token-saving or life-improvement claim follows from build checks or synthetic teaching fixtures.
 
 [Papers, methods, design choices and upstream attribution](RESEARCH_AND_DESIGN.md)
+
+## Review this pass
+
+The profile explanation is published. The following public source changes remain draft pull requests; none is a production deployment. Private repository reviews are kept out of this public list.
+
+| Public project | Proposed change |
+| --- | --- |
+| A3_DIALECTICAbyTACITUS_v3 | [Draft review](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3/pull/1) |
+| A4_PRAXIS_CLOUD_Work | [Draft review](https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work/pull/41) |
+| AGON | [Draft review](https://github.com/sargonxg/AGON/pull/1) |
+| H2_CONCORDIA_GHACK_SUBMISSION | [Draft review](https://github.com/sargonxg/H2_CONCORDIA_GHACK_SUBMISSION/pull/60) |
+| KAIROS-temporal-vision-TACITUS | [Draft review](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS/pull/1) |
+| LEANN | [Draft review](https://github.com/sargonxg/LEANN/pull/1) |
+| Syria-political-analysis | [Draft review](https://github.com/sargonxg/Syria-political-analysis/pull/4) |
+| TACITUS-Knowledge-Pipeline-open | [Draft review](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/pull/8) |
+| TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK | [Draft review](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK/pull/5) |
+| cc-graph-TACITUS-upgrade | [Draft review](https://github.com/sargonxg/cc-graph-TACITUS-upgrade/pull/2) |
+| graphify_4TACITUS | [Draft review](https://github.com/sargonxg/graphify_4TACITUS/pull/1) |
+| memvid | [Draft review](https://github.com/sargonxg/memvid/pull/1) |
+| open-ontologies | [Draft review](https://github.com/sargonxg/open-ontologies/pull/1) |
+| parameter-golf-Giulio-train | [Draft review](https://github.com/sargonxg/parameter-golf-Giulio-train/pull/1) |
+| tacitus-political-policy-second-brain | [Draft review](https://github.com/sargonxg/tacitus-political-policy-second-brain/pull/21) |
+| tacitus-workbench | [Draft review](https://github.com/sargonxg/tacitus-workbench/pull/18) |
