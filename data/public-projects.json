@@ -61,15 +61,15 @@
     {
       "repository": "sargonxg/AGON",
       "visibility": "public",
-      "description": "Experimental Rust conflict-analysis modules plus a runnable exact-evidence CLI. Quote/hash and Unicode bounds checks tested locally. Existing all-rights-reserved license applies.",
+      "description": "Experimental Rust conflict/evidence engine. Native/database/security/container checks pass locally; original code is Apache-2.0 with preserved third-party notices. Model quality and hosted acceptance remain separate.",
       "archived": false,
       "fork": false,
       "source_url": "https://github.com/sargonxg/AGON",
       "default_branch": "main",
-      "license": "NOASSERTION",
+      "license": "Apache-2.0",
       "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
       "proposed_lifecycle": "BOUNDED_RESEARCH",
-      "next_useful_action": "Publish one pinned native extraction/review fixture before broad engine integration.",
+      "next_useful_action": "Maintain exact PostgreSQL migration/checksum compatibility and evaluate a permissioned paired text task before App integration.",
       "lifecycle_executed": false
     },
     {

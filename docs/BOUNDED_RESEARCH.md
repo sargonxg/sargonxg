@@ -5,7 +5,7 @@ These are independent research tools, not competing App products. Source license
 | Project | Hypothesis | Next acceptance |
 | --- | --- | --- |
 | DIALECTICA v3 | Explicit source/review records can preserve the condition and identity of a claim through compilation. | Locked fixture build, changed-hash/qualification refusal, nine-node native projection, and a reviewed consumer round trip before adoption. |
-| AGON | Separate conflict objects can retain qualifications better than a flat extraction on a fixed text. | Permissioned paired text fixture with adjudicated exact spans; resolve dependency-security gate before hosted use. 75 software tests do not prove the hypothesis. |
+| AGON | Separate conflict objects can retain qualifications better than a flat extraction on a fixed text. | Permissioned paired text fixture with adjudicated exact spans. Native/database/security/container gates now pass locally under Apache-2.0; those checks do not prove the research hypothesis or hosted acceptance. |
 | KAIROS | Explicit intervals/unknown dates prevent unsupported chronology in a fixed source set. | Ambiguous, missing and conflicting interval fixtures plus independent dated-source review; nine software tests are baseline only. |
 | Native second-brain | A bounded source-linked archive can reopen exact evidence without an online service. | Pinned four-crate native-v2 release gate, unknown-date refusal, hash-preserving restore; do not generalize to the inherited full WebUI/PDF platform. |
 | A2 Wind Tunnel | Counterfactual branches help a reviewer distinguish assumptions from evidence. | One fixed scenario with explicit assumptions, uncertainty and human comparison; no forecasting-accuracy claim. |
