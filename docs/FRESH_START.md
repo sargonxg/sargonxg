@@ -1,6 +1,6 @@
 # Public project readiness and twenty refinements
 
-Reviewed 11 November 2026. Local/fixture acceptance and historical or experimental scope are explicit. No hosted production or analytical-quality certification is inferred from build checks. Personal work and archives retain their independent role.
+Reviewed 12 November 2026. See the [repository-specific priorities and acceptance criteria](REPOSITORY_PRIORITIES.md) for the latest next action and graphics decision for every public repository. Local/fixture acceptance and historical or experimental scope are explicit. No hosted production or analytical-quality certification is inferred from build checks. Personal work and archives retain their independent role.
 
 | Repository | Ready now | Evidence | Next useful gate |
 | --- | --- | --- | --- |

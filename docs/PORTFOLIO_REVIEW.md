@@ -1,6 +1,6 @@
 # TACITUS public portfolio review
 
-Reviewed 11 November 2026 (America/New_York). The accepted source improvements are on default branches. The [complete public readiness table and 20 refinements](FRESH_START.md) identify what works, how it was checked and the next gate for every public repository. Private project details are excluded.
+Reviewed 12 November 2026 (America/New_York). The accepted source improvements are on default branches. The [complete public readiness table and 20 refinements](FRESH_START.md) identify what works, how it was checked and the next gate for every public repository. Private project details are excluded.
 
 ## Start with a useful task
 
@@ -17,7 +17,9 @@ Reviewed 11 November 2026 (America/New_York). The accepted source improvements a
 
 The House of Evidence teaches a concrete failure: losing a condition, attribution or event date can change a brief. Its original mansion artwork and point-and-click code use fictional dispatches and preserve exact source spans in a reviewed teaching export. It makes no model calls and uses no copied game assets. The adventure runs separately from application engines and its JSON is not a native capsule.
 
-All 56 engine variants pass three refusal/export/evidence checks. All 52 personal-account variants and four organization variants pass mobile navigation/guide/overflow checks; the organization variants also pass desktop checks. The unchanged shared lesson passed desktop/mobile playthrough, export and reset checks. ESM repositories now explicitly scope the teaching engine as CommonJS for portable Node verification.
+All 57 engine variants pass three refusal/export/evidence checks, including the newly added graph-contract lesson. All 52 personal-account variants and four organization variants pass mobile navigation/guide/overflow checks; the organization variants also pass desktop checks. The unchanged shared lesson passed desktop/mobile playthrough, export and reset checks. ESM repositories now explicitly scope the teaching engine as CommonJS for portable Node verification.
+
+The [Source Workshop and Evidence Observatory](VISUAL_IDENTITY.md) add original workflow-specific concept art to selected authored projects. Fictional scenes are labelled; upstream forks retain their own identity, with optional TACITUS material secondary. The [repository-specific priorities](REPOSITORY_PRIORITIES.md) give a concrete purpose, next action and acceptance criterion for every public repository.
 
 ## Concrete engineering improvements
 

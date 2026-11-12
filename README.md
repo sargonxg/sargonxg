@@ -26,13 +26,15 @@ The aim is a practical data layer for people and AI tools: preserve the source, 
 
 The public tools below already support parts of that loop: historical research selections, source-linked context assembly and evidence inspection. Experimental engines explore portable context, conflict structure and time. Their formats and release gates remain distinct; broader integration and measurable improvements in analytical quality are work in progress. PRAXIS generation and paid upgrades remain paused.
 
-[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md)
+[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md) · [A specific next action for each public repository](docs/REPOSITORY_PRIORITIES.md)
 
 ### Enter the House of Evidence
 
-![The original TACITUS House of Evidence: a library, map room, clock archive and analyst study](tacitus-demo/mansion.png)
+![Original TACITUS Source Workshop illustration: sources linked to structure, context and human review](assets/tacitus-source-workshop-8bit.png)
 
-An original, playable 8-bit-style point-and-click adventure: preserve a condition, attribute a statement, check the clock and export a brief with its uncertainty intact. The harbor case is fictional. The game teaches the workflow; it is separate from the research engines.
+The illustration shows the source-to-review workflow. [Artwork, fictional elements and reuse](docs/VISUAL_IDENTITY.md).
+
+Play the separate original 8-bit-style point-and-click adventure: preserve a condition, attribute a statement, check the clock and export a brief with its uncertainty intact. The harbor case is fictional. The game teaches the workflow; it is separate from the research engines.
 
 ```sh
 git clone https://github.com/sargonxg/sargonxg.git
