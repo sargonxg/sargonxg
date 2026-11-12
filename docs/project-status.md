@@ -27,7 +27,7 @@ _Latest research-tool review: 6 November 2026. Earlier dated verification record
 | Project | Research question | Public status |
 | --- | --- | --- |
 | [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | How should systems be evaluated on typed conflict and policy structure, chronology, contradiction, and provenance? | Alpha benchmark and corpus; measured public leaderboard remains pending |
-| [AGON](https://github.com/sargonxg/AGON) | How can difficult human text be converted into reviewable actors, claims, commitments, contradictions, and friction signals? | Experimental research software; licensing is not yet finalized |
+| [AGON](https://github.com/sargonxg/AGON) | How can difficult human text be converted into reviewable actors, claims, commitments, contradictions, and friction signals? | Experimental research software; Apache-2.0 original code, preserved third-party notices; scoped native/database/security/container checks pass locally |
 | [KAIROS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) | How can policy and institutional text retain sequence, overlap, delay, episodes, and changing commitment status? | Experimental Rust library and demonstration surface |
 
 ## Public reference implementation
