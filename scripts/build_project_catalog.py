@@ -18,7 +18,7 @@ def render(data):
             raise ValueError('Only explicitly verified public projects may be rendered')
         if row['repository'].split('/', 1)[0] not in {'sargonxg', 'TACITUS-me'}:
             raise ValueError('Unexpected project owner')
-    allowed = {'CORE','FRONT_DOOR','PUBLIC_REFERENCE','PROFILE','DOMAIN_RESEARCH','PAUSE_PARALLEL_PRODUCT','BOUNDED_RESEARCH','REFERENCE_ONLY','ARCHIVE_THEN_CONSIDER_DELETE','PERSONAL','ARCHIVE_AFTER_EXTRACTION','KEEP_ARCHIVED'}
+    allowed = {'CORE','FRONT_DOOR','PUBLIC_REFERENCE','PROFILE','DOMAIN_RESEARCH','PAUSE_PARALLEL_PRODUCT','BOUNDED_RESEARCH','REFERENCE_ONLY','ARCHIVE_AFTER_PRESERVATION','PERSONAL','ARCHIVE_AFTER_EXTRACTION','KEEP_ARCHIVED'}
     for row in projects:
         if row.get('proposed_lifecycle') not in allowed or row.get('lifecycle_executed') is not False:
             raise ValueError('Lifecycle proposals require a known role and an explicit unexecuted state')
@@ -29,7 +29,7 @@ def render(data):
              '[historical research kit](https://github.com/sargonxg/Syria-political-analysis), or the separate '
              '[invited App](https://app.tacitus.me/). '
              '[Product direction and top 20 actions](GROWTH_PLAN.md).', '',
-             'Lifecycle changes are proposals, not executed archive/delete operations. Current source, native experiments and hosted acceptance remain separate. '
+             'Retirement candidates have historical-purpose notices; archival is pending required access/dependency checks. No permanent deletion is planned. Current source, native experiments and hosted acceptance remain separate. '
              'Original upstream licenses and source rights apply. PRAXIS is a separate paused workspace.', '']
     sections = [
         ('Current first-party source and proposed roles', lambda row: not row['archived'] and not row['fork']),

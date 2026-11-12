@@ -1,6 +1,6 @@
 {
   "reviewed_on": "2026-11-12",
-  "scope": "44 public TACITUS repositories/profiles; two independent public personal repositories are outside this technical catalogue. Private repositories and security findings are excluded. Lifecycle decisions are proposals, not executed operations.",
+  "scope": "44 verified public TACITUS repositories/profiles; private source and security findings excluded. Archival-only policy; notices prepared, actual archives still pending. Two public personal projects are independent.",
   "projects": [
     {
       "repository": "sargonxg/A2_DIALECTICAbyTACITUS",
@@ -180,8 +180,8 @@
       "default_branch": "v3",
       "license": "MIT",
       "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
-      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
-      "next_useful_action": "Pin upstream version and compare extracted versus inferred edges on a small known codebase.",
+      "proposed_lifecycle": "ARCHIVE_AFTER_PRESERVATION",
+      "next_useful_action": "Historical-purpose and restoration notice merged; archive after administration access and final consumer/deployment recheck.",
       "lifecycle_executed": false
     },
     {
@@ -209,7 +209,7 @@
       "license": "not_detected",
       "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
       "proposed_lifecycle": "ARCHIVE_AFTER_EXTRACTION",
-      "next_useful_action": "Retain the consent, human interruption and transcript-review pattern as an attributed fixture.",
+      "next_useful_action": "Historical-purpose and restoration notice merged; archive after administration access and final consumer/deployment recheck.",
       "lifecycle_executed": false
     },
     {
@@ -306,8 +306,8 @@
       "default_branch": "main",
       "license": "MIT",
       "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
-      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
-      "next_useful_action": "Benchmark recall, rights filtering and source-version recovery on a fixed policy task set.",
+      "proposed_lifecycle": "ARCHIVE_AFTER_PRESERVATION",
+      "next_useful_action": "Historical notice merged; preserve external submodule/LFS assets before archival; administration access also required.",
       "lifecycle_executed": false
     },
     {
@@ -334,8 +334,8 @@
       "default_branch": "main",
       "license": "Apache-2.0",
       "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
-      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
-      "next_useful_action": "Test corruption, source-version migration and exact quotation recovery independently.",
+      "proposed_lifecycle": "ARCHIVE_AFTER_PRESERVATION",
+      "next_useful_action": "Historical-purpose and restoration notice merged; archive after administration access and final consumer/deployment recheck.",
       "lifecycle_executed": false
     },
     {
@@ -362,8 +362,8 @@
       "default_branch": "main",
       "license": "MIT",
       "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
-      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
-      "next_useful_action": "Select one narrow licensed vocabulary and document its mapping/interpretation limits.",
+      "proposed_lifecycle": "ARCHIVE_AFTER_PRESERVATION",
+      "next_useful_action": "Historical-purpose and restoration notice merged; archive after administration access and final consumer/deployment recheck.",
       "lifecycle_executed": false
     },
     {
@@ -376,8 +376,8 @@
       "default_branch": "main",
       "license": "MIT",
       "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
-      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
-      "next_useful_action": "Reproduce one resource-bounded baseline before claiming a TACITUS extraction model.",
+      "proposed_lifecycle": "ARCHIVE_AFTER_PRESERVATION",
+      "next_useful_action": "Historical-purpose and restoration notice merged; archive after administration access and final consumer/deployment recheck.",
       "lifecycle_executed": false
     },
     {
@@ -447,7 +447,7 @@
       "license": "MIT",
       "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
       "proposed_lifecycle": "DOMAIN_RESEARCH",
-      "next_useful_action": "Finish one source \u2192 exact span \u2192 bounded context \u2192 reviewed briefing handoff in the maintained inspector.",
+      "next_useful_action": "Finish one source → exact span → bounded context → reviewed briefing handoff in the maintained inspector.",
       "lifecycle_executed": false
     },
     {
@@ -503,7 +503,7 @@
       "license": "not_detected",
       "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
       "proposed_lifecycle": "PUBLIC_REFERENCE",
-      "next_useful_action": "Make a fresh user\u2019s first source-to-export workflow smaller and test one explicit native-format adapter.",
+      "next_useful_action": "Make a fresh user’s first source-to-export workflow smaller and test one explicit native-format adapter.",
       "lifecycle_executed": false
     },
     {
