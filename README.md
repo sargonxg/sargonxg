@@ -18,6 +18,30 @@ Columbia University, Sciences Po and LUISS graduate. My public [Sciences Po inte
 
 TACITUS builds AI data infrastructure for policy and political analysis. Concordia Discors is an editorial project on polarization, pluralism and civic virtue. Next Diplomacy is in development, with an accompanying [Age of Abundance account](https://x.com/AoAbundance).
 
+## What we are building with TACITUS
+
+Policy work repeatedly loses context: a quotation becomes a summary, a conditional promise becomes a fact, a historical source looks current, or a useful research trail disappears inside a chat. TACITUS is my effort to make that work easier to inspect, reuse and improve.
+
+The aim is a practical data layer for people and AI tools: preserve the source, structure who said what and when, select context for a concrete task, and keep the resulting draft attached to its evidence and human review. A researcher should be able to reopen the reasoning materials instead of starting from scratch. A software agent should receive a bounded task and traceable context rather than an unexplained pile of text.
+
+The public tools below already support parts of that loop: historical research selections, source-linked context assembly and evidence inspection. Experimental engines explore portable context, conflict structure and time. Their formats and release gates remain distinct; broader integration and measurable improvements in analytical quality are work in progress. PRAXIS generation and paid upgrades remain paused.
+
+[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and this pass’s verification](docs/PORTFOLIO_REVIEW.md)
+
+### Enter the House of Evidence
+
+![The original TACITUS House of Evidence: a library, map room, clock archive and analyst study](tacitus-demo/mansion.png)
+
+An original, playable 8-bit-style point-and-click adventure: preserve a condition, attribute a statement, check the clock and export a brief with its uncertainty intact. The harbor case is fictional. The game teaches the workflow; it is separate from the research engines.
+
+```sh
+git clone https://github.com/sargonxg/sargonxg.git
+cd sargonxg
+python -m http.server 8765 --bind 127.0.0.1 --directory tacitus-demo
+```
+
+Open `http://127.0.0.1:8765/`. No installation, account, model or API key is needed. [Code, credits and controls](tacitus-demo/CREDITS.md) · [Project guide](TACITUS_GUIDE.md).
+
 ## Start with the code
 
 | Repository | What you can do | Scope |
