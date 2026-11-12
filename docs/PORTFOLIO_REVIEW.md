@@ -1,89 +1,32 @@
 # TACITUS public portfolio review
 
-Reviewed 11 November 2026 (America/New_York). The audit inventories default branches; it is not a certification of every historical branch or hosted service.
+Reviewed 11 November 2026 (America/New_York). The accepted source improvements are on default branches. The [complete public readiness table and 20 refinements](FRESH_START.md) identify what works, how it was checked and the next gate for every public repository. Private project details are excluded.
 
-This pass adds practical purpose/code/setup guides, primary research references, upstream credit and an original offline teaching adventure. The adventure has 51 repository-specific variants; every variant and its local project guide passed mobile browser navigation/overflow checks. The shared engine also passed desktop/mobile playthrough and export checks.
+## Start with a useful task
 
-Poetry, baroque music and the personal website remain independent. Archived repositories retain their history and existing source.
-
-## Repository evidence
-
-| Repository | Role | Verification scope |
+| Task | Current source | Verified scope |
 | --- | --- | --- |
-| [A2_DIALECTICAbyTACITUS](https://github.com/sargonxg/A2_DIALECTICAbyTACITUS) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [A3_DIALECTICAbyTACITUS_v3](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3) | Experimental context engine | Application runtime not executed; standalone demo verified |
-| [A4_PRAXIS_CLOUD_Work](https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work) | Paused workspace / active source | 6 local checks passed; 3 earlier/current failures—see guide |
-| [AGON](https://github.com/sargonxg/AGON) | Experimental conflict engine | Application runtime not executed; standalone demo verified |
-| [A_TACITUS_PipelineWork2026](https://github.com/sargonxg/A_TACITUS_PipelineWork2026) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [Baroque-music-room](https://github.com/sargonxg/Baroque-music-room) | Personal / excluded from TACITUS alignment | Preserved |
-| [caveman4tacitus](https://github.com/sargonxg/caveman4tacitus) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [cc-graph-TACITUS-upgrade](https://github.com/sargonxg/cc-graph-TACITUS-upgrade) | Historical generator experiment | 1 local checks passed; 1 earlier/current failures—see guide |
-| [ConfliBERT-TACITUS_use](https://github.com/sargonxg/ConfliBERT-TACITUS_use) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [cozo4TACITUS](https://github.com/sargonxg/cozo4TACITUS) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [create-context-graph4tacitus](https://github.com/sargonxg/create-context-graph4tacitus) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [gbrain4tacitus](https://github.com/sargonxg/gbrain4tacitus) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [genkitx-neo4j](https://github.com/sargonxg/genkitx-neo4j) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [graphify_4TACITUS](https://github.com/sargonxg/graphify_4TACITUS) | Upstream evaluation fork | Application runtime not executed; standalone demo verified |
-| [GraphLite4TACITUS](https://github.com/sargonxg/GraphLite4TACITUS) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [H2_CONCORDIA_GHACK_SUBMISSION](https://github.com/sargonxg/H2_CONCORDIA_GHACK_SUBMISSION) | Research prototype | 3 local checks passed |
-| [Hackaton_NYU_march26](https://github.com/sargonxg/Hackaton_NYU_march26) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [Hsimple_LiveAgent_CONCORDIA](https://github.com/sargonxg/Hsimple_LiveAgent_CONCORDIA) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [H_CONCORDIA_DRAFT](https://github.com/sargonxg/H_CONCORDIA_DRAFT) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [H_Pjt_NYC_GeminiLive_Med](https://github.com/sargonxg/H_Pjt_NYC_GeminiLive_Med) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [KAIROS-temporal-vision-TACITUS](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS) | Experimental temporal engine | Application runtime not executed; standalone demo verified |
-| [langgraph4tacitus](https://github.com/sargonxg/langgraph4tacitus) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [LEANN](https://github.com/sargonxg/LEANN) | Upstream evaluation fork | Application runtime not executed; standalone demo verified |
-| [mempalace4TACITUS](https://github.com/sargonxg/mempalace4TACITUS) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [memvid](https://github.com/sargonxg/memvid) | Upstream evaluation fork | Application runtime not executed; standalone demo verified |
-| [mnemon](https://github.com/sargonxg/mnemon) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [open-ontologies](https://github.com/sargonxg/open-ontologies) | Upstream evaluation fork | Application runtime not executed; standalone demo verified |
-| [parameter-golf-Giulio-train](https://github.com/sargonxg/parameter-golf-Giulio-train) | Upstream evaluation fork | Application runtime not executed; standalone demo verified |
-| [Poetry-I-Like](https://github.com/sargonxg/Poetry-I-Like) | Personal / excluded from TACITUS alignment | Preserved |
-| [regulatory-intelligence-assistant-4TACITUS](https://github.com/sargonxg/regulatory-intelligence-assistant-4TACITUS) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [rig](https://github.com/sargonxg/rig) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [sargonxg](https://github.com/sargonxg/sargonxg) | Public profile | Application runtime not executed; standalone demo verified |
-| [semantica4TACITUS](https://github.com/sargonxg/semantica4TACITUS) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [Syria-political-analysis](https://github.com/sargonxg/Syria-political-analysis) | Local public-source toolkit | 1 local checks passed |
-| [TACITUS-Knowledge-Pipeline-open](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Local reference implementation | 1 local checks passed |
-| [tacitus-ontology](https://github.com/sargonxg/tacitus-ontology) | Archived reference / historical experiment | Inventory and available README inspected; no runtime acceptance |
-| [tacitus-political-policy-second-brain](https://github.com/sargonxg/tacitus-political-policy-second-brain) | Integration lab / inherited upstream stack | Application runtime not executed; standalone demo verified |
-| [tacitus-workbench](https://github.com/sargonxg/tacitus-workbench) | Local evidence inspector | 5 local checks passed |
-| [TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | Evaluation research | 1 local checks passed; 1 earlier/current failures—see guide |
+| Prepare bounded policy context | [Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) or the [pinned organization starter](https://github.com/TACITUS-me/Open_Starting_Kpipeline_TACITUS) | 42 standard-library reference tests; graph, capsule and review-sheet build without credentials |
+| Inspect evidence beside a draft | [Workbench](https://github.com/sargonxg/tacitus-workbench) | 108 tests; five explicit native/prepared skips; three browser artifacts built |
+| Explore dated political records and documents | [Middle East toolkit](https://github.com/sargonxg/Syria-political-analysis) | 203 Python tests, 145 subtests, two skips; 35 Worker/compiler tests; atlas and document case build |
+| Check conflict-grammar structure | [TCGC](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK) | 78 tests, three optional skips; noncommercial license remains applicable |
+| Study the earlier ontology | [Organization DIALECTICA A2](https://github.com/TACITUS-me/DIALECTICA_by_TACITUS_A2) | 507 ontology tests; full graph/API/provider stack remains separate |
+| Develop the policy workspace | [PRAXIS A4](https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work) | 3,265 unit tests, one skip; build/lint/typecheck/routes; five authenticated emulator scenarios pass. Generation and paid upgrades remain paused. |
 
-## Concrete repairs
+## Original teaching adventure
 
-- Foundry adapter and NEXUS tests: corrected asynchronous process-observation and terminal-wrap assumptions; focused checks pass.
+The House of Evidence teaches a concrete failure: losing a condition, attribution or event date can change a brief. Its original mansion artwork and point-and-click code use fictional dispatches and preserve exact source spans in a reviewed teaching export. It makes no model calls and uses no copied game assets. The adventure runs separately from application engines and its JSON is not a native capsule.
 
-## Limits that still matter
+All 56 engine variants pass three refusal/export/evidence checks. All 52 personal-account variants and four organization variants pass mobile navigation/guide/overflow checks; the organization variants also pass desktop checks. The unchanged shared lesson passed desktop/mobile playthrough, export and reset checks. ESM repositories now explicitly scope the teaching engine as CommonJS for portable Node verification.
 
-The source and demo improvements are prepared on review branches. They do not automatically deploy, merge, resume paused generation, change cloud identity settings or provision services. Existing hosting configuration can run its normal branch/PR previews.
+## Concrete engineering improvements
 
-- Cargo is absent: Rust engine/native capsule acceptance was not run.
-- PRAXIS local typecheck, lint, build, repository-shape and route checks pass. Its full suite has one process-cleanup failure in this container; the cloud audit cannot acquire its required Google identity. Those failures do not establish a cloud outage.
-- Upstream retrieval, storage, ontology and training claims were not reproduced. Fork credit remains explicit.
-- No policy-quality, token-saving or life-improvement claim follows from build checks or synthetic teaching fixtures.
+Workbench now builds every advertised browser artifact before its tests. The Foundry bounded-process regression and the historical graph CLI terminal-wrap assertion were repaired. PRAXIS preserves explicitly attached owner context when a library summary is delayed, distinguishes terminated Linux zombies from live descendants without touching unrelated processes, and starts its response deadline at the send action after composer readiness. The exact ownership, delayed-history and review assertions remain intact.
 
-[Papers, methods, design choices and upstream attribution](RESEARCH_AND_DESIGN.md)
+Already-integrated branches are removed only after ancestry and unchanged-head checks. Inactive unique and incompatible historical work is retained under exact `archive/2026-11-11/…` tags before branch cleanup. Original review and source history remain recoverable. Poetry, baroque music and the personal website retain their independent role; archived repositories retain their historical scope.
 
-## Review this pass
+## Research, credit and remaining evidence
 
-The profile explanation is published. The following public source changes remain draft pull requests; none is a production deployment. Private repository reviews are kept out of this public list.
+[Methods and upstream credit](RESEARCH_AND_DESIGN.md) explain what RAG, long-context research, GraphRAG and provenance standards motivate, which pieces are implemented, and what still requires evaluation. Original code licenses and source-document rights remain attached. The maintained reference format, native Context and DIALECTICA capsules are distinct formats; compatible transfer requires a tested adapter.
 
-| Public project | Proposed change |
-| --- | --- |
-| A3_DIALECTICAbyTACITUS_v3 | [Draft review](https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3/pull/1) |
-| A4_PRAXIS_CLOUD_Work | [Draft review](https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work/pull/41) |
-| AGON | [Draft review](https://github.com/sargonxg/AGON/pull/1) |
-| H2_CONCORDIA_GHACK_SUBMISSION | [Draft review](https://github.com/sargonxg/H2_CONCORDIA_GHACK_SUBMISSION/pull/60) |
-| KAIROS-temporal-vision-TACITUS | [Draft review](https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS/pull/1) |
-| LEANN | [Draft review](https://github.com/sargonxg/LEANN/pull/1) |
-| Syria-political-analysis | [Draft review](https://github.com/sargonxg/Syria-political-analysis/pull/4) |
-| TACITUS-Knowledge-Pipeline-open | [Draft review](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/pull/8) |
-| TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK | [Draft review](https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK/pull/5) |
-| cc-graph-TACITUS-upgrade | [Draft review](https://github.com/sargonxg/cc-graph-TACITUS-upgrade/pull/2) |
-| graphify_4TACITUS | [Draft review](https://github.com/sargonxg/graphify_4TACITUS/pull/1) |
-| memvid | [Draft review](https://github.com/sargonxg/memvid/pull/1) |
-| open-ontologies | [Draft review](https://github.com/sargonxg/open-ontologies/pull/1) |
-| parameter-golf-Giulio-train | [Draft review](https://github.com/sargonxg/parameter-golf-Giulio-train/pull/1) |
-| tacitus-political-policy-second-brain | [Draft review](https://github.com/sargonxg/tacitus-political-policy-second-brain/pull/21) |
-| tacitus-workbench | [Draft review](https://github.com/sargonxg/tacitus-workbench/pull/18) |
+Native Rust acceptance and upstream performance/training/retrieval claims were not reproduced in this pass. PRAXIS's cloud audit could not acquire its Google audit identity here; that does not establish a hosted outage. Local/emulator checks do not certify hosted identity, live provider behavior, expert review or production security. No build, hash or synthetic fixture demonstrates a policy-quality, token-saving or life-improvement result. Those need matched held-out tasks, human assessment and full costs.

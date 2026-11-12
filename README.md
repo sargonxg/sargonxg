@@ -26,7 +26,7 @@ The aim is a practical data layer for people and AI tools: preserve the source, 
 
 The public tools below already support parts of that loop: historical research selections, source-linked context assembly and evidence inspection. Experimental engines explore portable context, conflict structure and time. Their formats and release gates remain distinct; broader integration and measurable improvements in analytical quality are work in progress. PRAXIS generation and paid upgrades remain paused.
 
-[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and this pass’s verification](docs/PORTFOLIO_REVIEW.md)
+[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md)
 
 ### Enter the House of Evidence
 
@@ -48,7 +48,9 @@ Open `http://127.0.0.1:8765/`. No installation, account, model or API key is nee
 | --- | --- | --- |
 | [Middle East political analysis](https://github.com/sargonxg/Syria-political-analysis) | Explore 120,576 historical conflict observations and annual country data; inspect sources and export cited selections. | Runnable research tools |
 | [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Inspect source passages, attributed assertions and omissions; reopen historical research selections. | Local tools and browser readers |
-| [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | A smaller reference implementation for structured policy-research context. | Reference implementation |
+| [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Build a source graph, bounded context capsule and review worksheet without a model account. | 42 reference tests; local workflow |
+
+The [TACITUS-me organization](https://github.com/TACITUS-me) offers a task-based starting point and a pinned runnable pipeline alongside the historical source.
 
 Start with the research kit’s [main-branch historical atlas guide](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/historical-atlas.md).
 The [five offline policy task workflows](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/blob/main/docs/POLITICAL_TASK_WORKFLOWS.md)
