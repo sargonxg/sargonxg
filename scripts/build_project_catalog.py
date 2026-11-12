@@ -18,35 +18,42 @@ def render(data):
             raise ValueError('Only explicitly verified public projects may be rendered')
         if row['repository'].split('/', 1)[0] not in {'sargonxg', 'TACITUS-me'}:
             raise ValueError('Unexpected project owner')
-    lines = ['# Public project map', '',
-             f"Reviewed {data['reviewed_on']}. {len(projects)} public repositories; private projects are excluded.", '',
-             'Start with the [political-data reference examples](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open), '
-             'the [historical research kit](https://github.com/sargonxg/Syria-political-analysis), or '
-             'the [local source readers](https://github.com/sargonxg/tacitus-workbench). '
-             'Each repository documents its own setup and data boundaries.', '',
-             'The descriptions summarize reviewed source and repository scope. The map does not certify '
-             'live service availability, benchmark performance, or permission to reuse source. '
-             'Check the repository license and upstream attribution before reuse. '
-             'PRAXIS hosted generation is paused.', '']
+    allowed = {'CORE','FRONT_DOOR','PUBLIC_REFERENCE','PROFILE','DOMAIN_RESEARCH','PAUSE_PARALLEL_PRODUCT','BOUNDED_RESEARCH','REFERENCE_ONLY','ARCHIVE_THEN_CONSIDER_DELETE','PERSONAL','ARCHIVE_AFTER_EXTRACTION','KEEP_ARCHIVED'}
+    for row in projects:
+        if row.get('proposed_lifecycle') not in allowed or row.get('lifecycle_executed') is not False:
+            raise ValueError('Lifecycle proposals require a known role and an explicit unexecuted state')
+    lines = ['# Public TACITUS project map', '',
+             f"Reviewed {data['reviewed_on']}. {len(projects)} public TACITUS repositories/profiles. Private repositories are excluded. Two independent public personal projects are linked separately below.", '',
+             'Start with the [reference pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open), '
+             '[Workbench](https://github.com/sargonxg/tacitus-workbench), '
+             '[historical research kit](https://github.com/sargonxg/Syria-political-analysis), or the separate '
+             '[invited App](https://app.tacitus.me/). '
+             '[Product direction and top 20 actions](GROWTH_PLAN.md).', '',
+             'Lifecycle changes are proposals, not executed archive/delete operations. Current source, native experiments and hosted acceptance remain separate. '
+             'Original upstream licenses and source rights apply. PRAXIS is a separate paused workspace.', '']
     sections = [
-        ('Current and experimental first-party projects', lambda row: not row['archived'] and not row['fork']),
-        ('Upstream forks retained for research', lambda row: not row['archived'] and row['fork']),
-        ('Archived references', lambda row: row['archived']),
+        ('Current first-party source and proposed roles', lambda row: not row['archived'] and not row['fork']),
+        ('Upstream forks: evaluate the need before maintaining a separate fork', lambda row: not row['archived'] and row['fork']),
+        ('Archived references: preserved history', lambda row: row['archived']),
     ]
+    def safe(value): return str(value).replace('|', '\\|').replace('\n', ' ')
     for title, predicate in sections:
-        lines += ['## ' + title, '', '| Repository | Purpose and boundary |', '| --- | --- |']
+        lines += ['## ' + title, '', '| Repository | Purpose and boundary | Proposed role | Next useful action |', '| --- | --- | --- | --- |']
         for row in projects:
             if predicate(row):
-                description = row['description'].replace('|', '\\|').replace('\n', ' ')
                 name = row['repository']
-                lines.append(f"| [{name}]({row['source_url']}) | {description} |")
+                lines.append(f"| [{name}]({row['source_url']}) | {safe(row['description'])} | {safe(row['proposed_lifecycle'])} | {safe(row['next_useful_action'])} |")
         lines.append('')
-    lines += ['## Maintain this map', '',
+    lines += ['## Independent personal work', '',
+              '[Poetry](https://github.com/sargonxg/Poetry-I-Like) and '
+              '[Baroque Music Room](https://github.com/sargonxg/Baroque-music-room) keep their own purpose and identity. '
+              'Neither is an archival/deletion or TACITUS-branding proposal.', '',
+              '## Maintain this map', '',
               'The source is [data/public-projects.json](../data/public-projects.json). '
-              'Update it only after confirming public visibility and reviewing the default-branch README/source. '
-              'Run `python scripts/build_project_catalog.py` to regenerate this page. '
-              'These descriptions reflect a README and repository-structure review; '
-              'they are not a fresh acceptance test of every application.', '']
+              'Confirm public visibility and inspect the source before updating it. '
+              'Run `python scripts/build_project_catalog.py` and the public-catalogue tests. '
+              'A lifecycle proposal must remain explicitly unexecuted until a separately authorized operation is completed; '
+              'editing this catalogue never archives or deletes a repository.', '']
     return '\n'.join(lines)
 
 

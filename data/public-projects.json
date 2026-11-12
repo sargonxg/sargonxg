@@ -1,6 +1,6 @@
 {
-  "reviewed_on": "2026-11-10",
-  "scope": "44 verified public repositories accessible through the authenticated account, including TACITUS-me organization projects. Private repositories and security findings are excluded.",
+  "reviewed_on": "2026-11-12",
+  "scope": "44 public TACITUS repositories/profiles; two independent public personal repositories are outside this technical catalogue. Private repositories and security findings are excluded. Lifecycle decisions are proposals, not executed operations.",
   "projects": [
     {
       "repository": "sargonxg/A2_DIALECTICAbyTACITUS",
@@ -11,7 +11,10 @@
       "source_url": "https://github.com/sargonxg/A2_DIALECTICAbyTACITUS",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Use it as an attributed predecessor while maintaining current contracts separately.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/A3_DIALECTICAbyTACITUS_v3",
@@ -22,7 +25,10 @@
       "source_url": "https://github.com/sargonxg/A3_DIALECTICAbyTACITUS_v3",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "BOUNDED_RESEARCH",
+      "next_useful_action": "Publish a pinned native contract test and a small portable example before broader service integration.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/A4_PRAXIS_CLOUD_Work",
@@ -33,7 +39,10 @@
       "source_url": "https://github.com/sargonxg/A4_PRAXIS_CLOUD_Work",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "PAUSE_PARALLEL_PRODUCT",
+      "next_useful_action": "Complete one bounded user task through saved sources, selected context, draft and human review.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/A_TACITUS_PipelineWork2026",
@@ -44,7 +53,10 @@
       "source_url": "https://github.com/sargonxg/A_TACITUS_PipelineWork2026",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Reuse only a clearly identified source/version contract in the smaller maintained reference.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/AGON",
@@ -55,7 +67,10 @@
       "source_url": "https://github.com/sargonxg/AGON",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
+      "proposed_lifecycle": "BOUNDED_RESEARCH",
+      "next_useful_action": "Publish one pinned native extraction/review fixture before broad engine integration.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/caveman4tacitus",
@@ -66,7 +81,10 @@
       "source_url": "https://github.com/sargonxg/caveman4tacitus",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Compare a qualified policy instruction with and without compression before any reuse.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/cc-graph-TACITUS-upgrade",
@@ -77,7 +95,10 @@
       "source_url": "https://github.com/sargonxg/cc-graph-TACITUS-upgrade",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "REFERENCE_ONLY",
+      "next_useful_action": "Run the optional integrations in a declared supported matrix and preserve the repaired CLI contract.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/ConfliBERT-TACITUS_use",
@@ -88,7 +109,10 @@
       "source_url": "https://github.com/sargonxg/ConfliBERT-TACITUS_use",
       "default_branch": "main",
       "license": "GPL-3.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Pin the original paper/model/data license and evaluate one conflict-text extraction task.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/cozo4TACITUS",
@@ -99,7 +123,10 @@
       "source_url": "https://github.com/sargonxg/cozo4TACITUS",
       "default_branch": "main",
       "license": "MPL-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Compare namespace-scoped source/version queries on a fixed fixture before adoption.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/create-context-graph4tacitus",
@@ -110,7 +137,10 @@
       "source_url": "https://github.com/sargonxg/create-context-graph4tacitus",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Extract a small documented memory/review contract rather than another unverified application stack.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/gbrain4tacitus",
@@ -121,7 +151,10 @@
       "source_url": "https://github.com/sargonxg/gbrain4tacitus",
       "default_branch": "master",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Evaluate an explicit source-backed recall task before reusing its memory rules.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/genkitx-neo4j",
@@ -132,7 +165,10 @@
       "source_url": "https://github.com/sargonxg/genkitx-neo4j",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Document one bounded query/receipt adapter if Neo4j becomes necessary.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/graphify_4TACITUS",
@@ -143,7 +179,10 @@
       "source_url": "https://github.com/sargonxg/graphify_4TACITUS",
       "default_branch": "v3",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
+      "next_useful_action": "Pin upstream version and compare extracted versus inferred edges on a small known codebase.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/GraphLite4TACITUS",
@@ -154,7 +193,10 @@
       "source_url": "https://github.com/sargonxg/GraphLite4TACITUS",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Compare one offline evidence-neighborhood query with the smaller maintained graph contract.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/H2_CONCORDIA_GHACK_SUBMISSION",
@@ -165,7 +207,10 @@
       "source_url": "https://github.com/sargonxg/H2_CONCORDIA_GHACK_SUBMISSION",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "ARCHIVE_AFTER_EXTRACTION",
+      "next_useful_action": "Retain the consent, human interruption and transcript-review pattern as an attributed fixture.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/H_CONCORDIA_DRAFT",
@@ -176,7 +221,10 @@
       "source_url": "https://github.com/sargonxg/H_CONCORDIA_DRAFT",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Extract one useful human-interruption/consent pattern only if a maintained task needs it.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/H_Pjt_NYC_GeminiLive_Med",
@@ -187,7 +235,10 @@
       "source_url": "https://github.com/sargonxg/H_Pjt_NYC_GeminiLive_Med",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Extract one useful human-interruption/consent pattern only if a maintained task needs it.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/Hackaton_NYU_march26",
@@ -198,7 +249,10 @@
       "source_url": "https://github.com/sargonxg/Hackaton_NYU_march26",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Extract one useful human-interruption/consent pattern only if a maintained task needs it.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/Hsimple_LiveAgent_CONCORDIA",
@@ -209,7 +263,10 @@
       "source_url": "https://github.com/sargonxg/Hsimple_LiveAgent_CONCORDIA",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Extract one useful human-interruption/consent pattern only if a maintained task needs it.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/KAIROS-temporal-vision-TACITUS",
@@ -220,7 +277,10 @@
       "source_url": "https://github.com/sargonxg/KAIROS-temporal-vision-TACITUS",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
+      "proposed_lifecycle": "BOUNDED_RESEARCH",
+      "next_useful_action": "Add a pinned Rust build and dated-source fixture covering interval ambiguity.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/langgraph4tacitus",
@@ -231,7 +291,10 @@
       "source_url": "https://github.com/sargonxg/langgraph4tacitus",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Use a finite task DAG only where it solves a measured workflow need.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/LEANN",
@@ -242,7 +305,10 @@
       "source_url": "https://github.com/sargonxg/LEANN",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
+      "next_useful_action": "Benchmark recall, rights filtering and source-version recovery on a fixed policy task set.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/mempalace4TACITUS",
@@ -253,7 +319,10 @@
       "source_url": "https://github.com/sargonxg/mempalace4TACITUS",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Reproduce a source/version/withdrawal recall task before relying on the advertised benchmark.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/memvid",
@@ -264,7 +333,10 @@
       "source_url": "https://github.com/sargonxg/memvid",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
+      "next_useful_action": "Test corruption, source-version migration and exact quotation recovery independently.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/mnemon",
@@ -275,7 +347,10 @@
       "source_url": "https://github.com/sargonxg/mnemon",
       "default_branch": "master",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Evaluate cross-session source/version recall without silently merging entity names.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/open-ontologies",
@@ -286,7 +361,10 @@
       "source_url": "https://github.com/sargonxg/open-ontologies",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
+      "next_useful_action": "Select one narrow licensed vocabulary and document its mapping/interpretation limits.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/parameter-golf-Giulio-train",
@@ -297,7 +375,10 @@
       "source_url": "https://github.com/sargonxg/parameter-golf-Giulio-train",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "ARCHIVE_THEN_CONSIDER_DELETE",
+      "next_useful_action": "Reproduce one resource-bounded baseline before claiming a TACITUS extraction model.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/regulatory-intelligence-assistant-4TACITUS",
@@ -308,7 +389,10 @@
       "source_url": "https://github.com/sargonxg/regulatory-intelligence-assistant-4TACITUS",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Extract one source-currency and applicability review scenario for the maintained pipeline.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/rig",
@@ -319,7 +403,10 @@
       "source_url": "https://github.com/sargonxg/rig",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Use it only for a justified bounded adapter after a pinned native acceptance test.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/sargonxg",
@@ -330,7 +417,10 @@
       "source_url": "https://github.com/sargonxg/sargonxg",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "PROFILE",
+      "next_useful_action": "Keep the task selector, public-only readiness and original visual policy synchronized.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/semantica4TACITUS",
@@ -341,7 +431,10 @@
       "source_url": "https://github.com/sargonxg/semantica4TACITUS",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Compare one authored domain/range mapping and its provenance with maintained task schemas.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/Syria-political-analysis",
@@ -352,7 +445,10 @@
       "source_url": "https://github.com/sargonxg/Syria-political-analysis",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
+      "proposed_lifecycle": "DOMAIN_RESEARCH",
+      "next_useful_action": "Finish one source \u2192 exact span \u2192 bounded context \u2192 reviewed briefing handoff in the maintained inspector.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/TACITUS-Knowledge-Pipeline-open",
@@ -363,7 +459,10 @@
       "source_url": "https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
+      "proposed_lifecycle": "PUBLIC_REFERENCE",
+      "next_useful_action": "Publish one held-out task bundle and an independently reviewed end-to-end artifact.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/tacitus-ontology",
@@ -374,7 +473,10 @@
       "source_url": "https://github.com/sargonxg/tacitus-ontology",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Map a small useful term set to a maintained versioned contract before reuse.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/tacitus-political-policy-second-brain",
@@ -385,7 +487,10 @@
       "source_url": "https://github.com/sargonxg/tacitus-political-policy-second-brain",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "BOUNDED_RESEARCH",
+      "next_useful_action": "Pin/build the bounded capsule developer workflow separately from the inherited web/database stack.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/tacitus-workbench",
@@ -396,7 +501,10 @@
       "source_url": "https://github.com/sargonxg/tacitus-workbench",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
+      "proposed_lifecycle": "PUBLIC_REFERENCE",
+      "next_useful_action": "Make a fresh user\u2019s first source-to-export workflow smaller and test one explicit native-format adapter.",
+      "lifecycle_executed": false
     },
     {
       "repository": "sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK",
@@ -407,7 +515,10 @@
       "source_url": "https://github.com/sargonxg/TCGC_TACITUS-Conflict-Grammar-Corpus_BENCHMARK",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope."
+      "basis": "2026-11-10 source review and separately recorded local checks; see verified-workflow note for exact scope.",
+      "proposed_lifecycle": "DOMAIN_RESEARCH",
+      "next_useful_action": "Add expert-adjudicated held-out tasks and explicitly report reviewer agreement.",
+      "lifecycle_executed": false
     },
     {
       "repository": "TACITUS-me/.github",
@@ -418,7 +529,10 @@
       "source_url": "https://github.com/TACITUS-me/.github",
       "default_branch": "main",
       "license": "not_detected",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "PROFILE",
+      "next_useful_action": "Maintain one useful task-first entry with original art, real outputs and accurate stage labels.",
+      "lifecycle_executed": false
     },
     {
       "repository": "TACITUS-me/AGON-humanfriction-detection-TACITUS",
@@ -429,7 +543,10 @@
       "source_url": "https://github.com/TACITUS-me/AGON-humanfriction-detection-TACITUS",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Keep historical provenance and direct current engine work to the maintained AGON line.",
+      "lifecycle_executed": false
     },
     {
       "repository": "TACITUS-me/cozo4TACITUS",
@@ -440,7 +557,10 @@
       "source_url": "https://github.com/TACITUS-me/cozo4TACITUS",
       "default_branch": "main",
       "license": "MPL-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Compare namespace-scoped source/version queries on a fixed fixture before adoption.",
+      "lifecycle_executed": false
     },
     {
       "repository": "TACITUS-me/DIALECTICA_by_TACITUS_A2",
@@ -451,7 +571,10 @@
       "source_url": "https://github.com/TACITUS-me/DIALECTICA_by_TACITUS_A2",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "REFERENCE_ONLY",
+      "next_useful_action": "Keep its tested ontology useful; separately decide whether a full service stack is justified.",
+      "lifecycle_executed": false
     },
     {
       "repository": "TACITUS-me/Open_Starting_Kpipeline_TACITUS",
@@ -462,7 +585,10 @@
       "source_url": "https://github.com/TACITUS-me/Open_Starting_Kpipeline_TACITUS",
       "default_branch": "main",
       "license": "Apache-2.0",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "PUBLIC_REFERENCE",
+      "next_useful_action": "Keep the tested submodule pin current and explain the distinct historical notebooks.",
+      "lifecycle_executed": false
     },
     {
       "repository": "TACITUS-me/regulatory-intelligence-assistant-4TACITUS",
@@ -473,7 +599,10 @@
       "source_url": "https://github.com/TACITUS-me/regulatory-intelligence-assistant-4TACITUS",
       "default_branch": "main",
       "license": "NOASSERTION",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Extract one source-currency and applicability review scenario for the maintained pipeline.",
+      "lifecycle_executed": false
     },
     {
       "repository": "TACITUS-me/semantica4tacitus",
@@ -484,7 +613,10 @@
       "source_url": "https://github.com/TACITUS-me/semantica4tacitus",
       "default_branch": "main",
       "license": "MIT",
-      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded"
+      "basis": "2026-11-08 API, README, manifests, source structure, branches, PR and deployment metadata review; runtime checks only where separately recorded",
+      "proposed_lifecycle": "KEEP_ARCHIVED",
+      "next_useful_action": "Keep the upstream fork archived and link any carefully scoped comparison to maintained work.",
+      "lifecycle_executed": false
     }
   ]
 }
