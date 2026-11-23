@@ -39,9 +39,9 @@ Generated with OpenAI image generation on 12 November 2026. Original fictional c
 
 ## Profile illustrations
 
-The profile uses four original concept illustrations drawn in pixel art on a 224-pixel-wide canvas and exported at 4× scale.
+The four full-width pixel-art illustrations were generated with OpenAI image generation. The illustrated researchers on the TACITUS site informed the character style. The globe and New York waterfront in the diplomacy scene draw on Giulio’s personal atlas and career imagery. [TACITUS](https://tacitus.me/)
 
-- Delegates discuss a briefing around a conference table at dusk. [Multilateral diplomacy](../assets/multilateral-diplomacy-8bit.png)
-- A highlighted passage links a document to a comparison scorecard. [DOXA](../assets/doxa-8bit.png)
-- A teal bird flies through two scenario paths toward a comparison chart. [Wind Tunnel](../assets/wind-tunnel-8bit.png)
-- A library and a graph feed selected sources into a conversation with a context receipt. [TACITUS App](../assets/tacitus-app-8bit.png)
+- Delegates discuss a shared map beside the New York waterfront. [Multilateral diplomacy](../assets/multilateral-diplomacy-scene.webp)
+- Two researchers compare highlighted passages in a report and a speech transcript. [DOXA](../assets/doxa-scene.webp)
+- Kite flies through the lab’s glass tunnel as researchers compare two scenario paths. [Wind Tunnel](../assets/wind-tunnel-scene.webp)
+- An archivist hands a colleague a reusable evidence folder. [TACITUS App](../assets/tacitus-app-scene.webp)

@@ -6,13 +6,13 @@ I’m a former UN Political Affairs Officer on the Syria team. I prepared politi
 
 [LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/) · [Published writing](https://concordiadiscors.org/author/giulio/) · [TACITUS](https://tacitus.me/)
 
-![8-bit illustration of delegates around a multilateral conference table overlooking the city at dusk](assets/multilateral-diplomacy-8bit.png)
+![Four diplomats discuss a map around a lamp-lit table overlooking the New York waterfront](assets/multilateral-diplomacy-scene.webp)
 
 ## What I’m building
 
 ### DOXA by TACITUS
 
-<img src="assets/doxa-8bit.png" alt="8-bit illustration of a highlighted passage under a magnifying glass, beside a comparison scorecard" width="752">
+![Two researchers compare a highlighted report with a speech transcript and its audio waveform](assets/doxa-scene.webp)
 
 **Compare how texts frame the same issue.** DOXA runs locally on documents and speech transcripts. Set criteria for political framing or evidence of prejudice, see where a reading is uncertain, and trace each scorecard finding to an exact passage or timestamp.
 
@@ -20,7 +20,7 @@ I’m a former UN Political Affairs Officer on the Syria team. I prepared politi
 
 ### Wind Tunnel by TACITUS
 
-<img src="assets/wind-tunnel-8bit.png" alt="8-bit illustration of a teal bird flying through two scenario paths toward a comparison chart" width="752">
+![Kite, a teal bird, flies between two paths in a glass tunnel while researchers compare charts](assets/wind-tunnel-scene.webp)
 
 **Rehearse a policy or message before fieldwork.** Wind Tunnel lets you compare alternative proposals or wording with the same modeled audience. Use the simulated responses to spot questions worth taking into interviews or surveys, then compare them with the responses you collect.
 
@@ -28,7 +28,7 @@ I’m a former UN Political Affairs Officer on the Syria team. I prepared politi
 
 ### TACITUS App
 
-<img src="assets/tacitus-app-8bit.png" alt="8-bit illustration of an evidence library and its linked sources feeding a conversation with a context receipt" width="752">
+![An archivist hands a tabbed evidence folder to a colleague in a library with a source graph](assets/tacitus-app-scene.webp)
 
 **Carry the evidence and working context into the next task.** In the TACITUS App pilot, teams save source passages, working assumptions, instructions, and examples. You can select the versions a question needs, preview what will go into the conversation, and share that selection for a teammate to reuse. A context receipt records the selection for review.
 
