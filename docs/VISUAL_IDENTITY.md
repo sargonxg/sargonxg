@@ -36,3 +36,12 @@ The original four-room **House of Evidence** adventure remains separate. Its eng
 Generated with OpenAI image generation on 12 November 2026. Original fictional concept art showing saved sources, institutional context, specialist work and a human reviewer. The people, scrolls, dates and papers are invented. This illustrates the longer-term product goal; it is not a screenshot or a claim that every specialist agent or institutional pack is live. No existing game assets, characters or scenes were copied. The existing game and current application interfaces retain their separate scope.
 
 `tacitus-research-guild-8bit.png` — SHA-256 `e46887d05cd9ff9925e9216690ff4c02ce924937ab373efd8c99716d88b8f5a0`.
+
+## Profile illustrations
+
+The profile uses four original concept illustrations drawn in pixel art on a 224-pixel-wide canvas and exported at 4× scale.
+
+- Delegates discuss a briefing around a conference table at dusk. [Multilateral diplomacy](../assets/multilateral-diplomacy-8bit.png)
+- A highlighted passage links a document to a comparison scorecard. [DOXA](../assets/doxa-8bit.png)
+- A teal bird flies through two scenario paths toward a comparison chart. [Wind Tunnel](../assets/wind-tunnel-8bit.png)
+- A library and a graph feed selected sources into a conversation with a context receipt. [TACITUS App](../assets/tacitus-app-8bit.png)

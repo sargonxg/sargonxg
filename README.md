@@ -1,44 +1,60 @@
 # Giulio Catanzariti
 
-**AI · Diplomacy · Middle East · Multilateralism**
+**Multilateral diplomacy · Political analysis · AI for policy**
 
-Foreign-policy professional. Former UN Political Affairs Officer, Syria team. Based in New York. Seeking roles in diplomacy, political affairs and AI governance.
+I’m a former UN Political Affairs Officer on the Syria team. I prepared political analysis and briefings for UN leadership and engaged with diplomats and civil society. I build tools to help diplomats and policy teams compare sources, test assumptions, and trace conclusions back to evidence. [Sciences Po interview](https://www.sciencespo.fr/carrieres/en/news/giulio-catanzariti-political-affairs-officer-syria-team-of-the-un-department-of-political-and-peacebuilding-affairs/)
 
-Columbia University, Sciences Po and LUISS graduate. My public [Sciences Po interview](https://www.sciencespo.fr/carrieres/en/news/giulio-catanzariti-political-affairs-officer-syria-team-of-the-un-department-of-political-and-peacebuilding-affairs/) describes political analysis, diplomatic engagement and conflict maps supporting the UN Syria team.
+[LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/) · [Published writing](https://concordiadiscors.org/author/giulio/) · [TACITUS](https://tacitus.me/)
 
-[LinkedIn](https://www.linkedin.com/in/giuliocatanzariti/) · [X](https://x.com/CatanzaGi) · [Published writing](https://concordiadiscors.org/author/giulio/)
+![8-bit illustration of delegates around a multilateral conference table overlooking the city at dusk](assets/multilateral-diplomacy-8bit.png)
 
-## Side projects
+## What I’m building
 
-| Project | My contribution | Status |
-| --- | --- | --- |
-| [TACITUS](https://www.tacitus.me/) | Independent developer and researcher | Working research tools · PRAXIS paused |
-| [Concordia Discors Magazine](https://concordiadiscors.org/) | Editor and contributor | Published |
-| [Next Diplomacy](https://nextdiplomacy.substack.com/) | Writer · Publication in development | In development |
+### DOXA by TACITUS
 
-TACITUS builds AI data infrastructure for policy and political analysis. Concordia Discors is an editorial project on polarization, pluralism and civic virtue. Next Diplomacy is in development, with an accompanying [Age of Abundance account](https://x.com/AoAbundance).
+<img src="assets/doxa-8bit.png" alt="8-bit illustration of a highlighted passage under a magnifying glass, beside a comparison scorecard" width="752">
 
-## What we are building with TACITUS
+**Compare how texts frame the same issue.** DOXA runs locally on documents and speech transcripts. Set criteria for political framing or evidence of prejudice, see where a reading is uncertain, and trace each scorecard finding to an exact passage or timestamp.
 
-Policy work repeatedly loses context: a quotation becomes a summary, a conditional promise becomes a fact, a historical source looks current, or a useful research trail disappears inside a chat. TACITUS is my effort to make that work easier to inspect, reuse and improve.
+[Repository and setup](https://github.com/sargonxg/DOXA-by-TACITUS) · [Worked scorecard](https://github.com/sargonxg/DOXA-by-TACITUS#worked-scorecard) · [Download DOXA](https://github.com/sargonxg/DOXA-by-TACITUS/releases/latest)
 
-The aim is a practical data layer for people and AI tools: preserve the source, structure who said what and when, select context for a concrete task, and keep the resulting draft attached to its evidence and human review. A researcher should be able to reopen the reasoning materials instead of starting from scratch. A software agent should receive a bounded task and traceable context rather than an unexplained pile of text.
+### Wind Tunnel by TACITUS
 
-The current App direction is a private-by-default workspace for small teams in **corporate policy, conflict analysis and US/EU legislative analysis**. Teams select saved evidence and curated packs, request bounded research when needed, and review an evidence-linked output. Invited testers remain free; commercial offers use quotes based on seats and measured usage. Release acceptance and analyst evaluation remain in progress.
+<img src="assets/wind-tunnel-8bit.png" alt="8-bit illustration of a teal bird flying through two scenario paths toward a comparison chart" width="752">
 
-The public tools below already support parts of that loop: historical research selections, source-linked context assembly and evidence inspection. Experimental engines explore portable context, conflict structure and time. Their formats and release gates remain distinct; broader integration and measurable improvements in analytical quality are work in progress. PRAXIS generation and paid upgrades remain paused.
+**Rehearse a policy or message before fieldwork.** Wind Tunnel lets you compare alternative proposals or wording with the same modeled audience. Use the simulated responses to spot questions worth taking into interviews or surveys, then compare them with the responses you collect.
 
-[Why these design choices: papers, methods and upstream credit](docs/RESEARCH_AND_DESIGN.md) · [Public project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Current readiness and 20 refinements](docs/FRESH_START.md) · [A specific next action for each public repository](docs/REPOSITORY_PRIORITIES.md) · [Three-domain direction, maintenance status and 20 priorities](docs/GROWTH_PLAN.md) · [Prepared expert/user validation protocol](docs/VALIDATION_PROTOCOL.md)
+[Try a quick simulation](https://windtunnel.tacitus.me/quick-simulation) · [Explore worked studies](https://windtunnel.tacitus.me/examples)
 
-### A research guild, built around useful work
+### TACITUS App
 
-![Original fictional TACITUS Research Guild: sources, institutional context, specialist researchers and human review](assets/tacitus-research-guild-8bit.png)
+<img src="assets/tacitus-app-8bit.png" alt="8-bit illustration of an evidence library and its linked sources feeding a conversation with a context receipt" width="752">
 
-The goal is one policy research workspace: apply sources, institutional procedure and private organisational context to a useful reviewed brief. A separate [invited App](https://app.tacitus.me/) is developing that experience; the public tools below demonstrate bounded parts of the workflow. Broader specialist coordination and measured customer benefit remain development work. This original fictional illustration shows that direction, not a live feature screenshot. [Artwork, invented elements and reuse](docs/VISUAL_IDENTITY.md).
+**Carry the evidence and working context into the next task.** In the TACITUS App pilot, teams save source passages, working assumptions, instructions, and examples. You can select the versions a question needs, preview what will go into the conversation, and share that selection for a teammate to reuse. A context receipt records the selection for review.
 
-### Play the House of Evidence
+[Open the app](https://app.tacitus.me/) · [Try a conversation without signing in](https://app.tacitus.me/try.html)
 
-Play the separate original 8-bit-style point-and-click adventure: preserve a condition, attribute a statement, check the clock and export a brief with its uncertainty intact. The harbor case is fictional. The game teaches the workflow; it is separate from the research engines.
+## Public research tools
+
+- **Middle East political analysis.** Explore historical conflict observations and country data, inspect the sources, and export a cited selection. [Repository](https://github.com/sargonxg/Syria-political-analysis) · [Historical atlas guide](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/historical-atlas.md)
+- **TACITUS Workbench.** Inspect attributed claims and omissions alongside the source passages and reopen a historical research selection. [Repository](https://github.com/sargonxg/tacitus-workbench) · [Syria briefing example](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/policy-workflow.md)
+- **TACITUS Knowledge Pipeline.** Build a source graph, assemble evidence for a specific policy question, and generate a review worksheet locally. [Repository](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) · [Five offline policy workflows](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/blob/main/docs/POLITICAL_TASK_WORKFLOWS.md)
+
+[Browse the TACITUS organization](https://github.com/TACITUS-me) · [Public project map](docs/PUBLIC_PROJECT_MAP.md) · [Research and design notes](docs/RESEARCH_AND_DESIGN.md)
+
+<details>
+<summary>See an evidence-linked Syria brief</summary>
+
+Prepare a historical briefing with the reference pipeline, then inspect the draft beside the source passage in Workbench. The example records which context went into the model run and what the reviewer can check. [Briefing workflow](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/blob/main/reference-pipeline/docs/model-workflows.md)
+
+![Actual Workbench view of a draft briefing alongside its historical source](assets/tacitus-policy-workflow.png)
+
+</details>
+
+<details>
+<summary>Play the House of Evidence</summary>
+
+The original 8-bit adventure uses a fictional harbor case to practice attributing a statement, preserving a condition, and checking dates before drafting a brief. Run it locally with Python.
 
 ```sh
 git clone https://github.com/sargonxg/sargonxg.git
@@ -46,34 +62,23 @@ cd sargonxg
 python -m http.server 8765 --bind 127.0.0.1 --directory tacitus-demo
 ```
 
-Open `http://127.0.0.1:8765/`. No installation, account, model or API key is needed. [Code, credits and controls](tacitus-demo/CREDITS.md) · [Project guide](TACITUS_GUIDE.md).
+Open [the local game](http://127.0.0.1:8765/). [Game credits and controls](tacitus-demo/CREDITS.md) · [Project guide](TACITUS_GUIDE.md) · [Visual identity](docs/VISUAL_IDENTITY.md)
 
-## Start with the code
+</details>
 
-| Repository | What you can do | Scope |
-| --- | --- | --- |
-| [Middle East political analysis](https://github.com/sargonxg/Syria-political-analysis) | Explore 120,576 historical conflict observations and annual country data; inspect sources and export cited selections. | Runnable research tools |
-| [TACITUS Workbench](https://github.com/sargonxg/tacitus-workbench) | Inspect source passages, attributed assertions and omissions; reopen historical research selections. | Local tools and browser readers |
-| [TACITUS Knowledge Pipeline](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open) | Build a source graph, bounded context capsule and review worksheet without a model account. | 42 reference tests; local workflow |
+## Writing and background
 
-The [TACITUS-me organization](https://github.com/TACITUS-me) offers a task-based starting point and a pinned runnable pipeline alongside the historical source.
+I edit and write for **Concordia Discors**, a magazine on polarization, pluralism, and civic virtue. [The Conflict Resolution Machine and the Human Remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/) · [The Questioner and the Republic](https://concordiadiscors.org/the-questioner-and-the-republic-on-alexander-karps-moral-vision-of-technology/)
 
-Start with the research kit’s [main-branch historical atlas guide](https://github.com/sargonxg/Syria-political-analysis/blob/main/docs/historical-atlas.md).
-The [five offline policy task workflows](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/blob/main/docs/POLITICAL_TASK_WORKFLOWS.md)
-produce source-linked preparation worksheets and independently verifiable packet receipts without API accounts.
+I’m developing **Next Diplomacy**, a publication on diplomacy, AI policy, and international cooperation. [Next Diplomacy](https://nextdiplomacy.substack.com/) · [Age of Abundance](https://x.com/AoAbundance)
 
-## A working policy-AI example
+I’m based in New York and studied at Columbia SIPA, Sciences Po, and LUISS Guido Carli. I’m open to roles in diplomacy, political affairs, and AI governance. [X](https://x.com/CatanzaGi)
 
-[Prepare a historical Syria briefing with a bounded evidence-inspection agent](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/blob/main/reference-pipeline/docs/model-workflows.md), then [inspect the real draft and exact evidence in Workbench](https://github.com/sargonxg/tacitus-workbench/blob/main/apps/workbench/docs/policy-workflow.md).
+<details>
+<summary>Project status and verification</summary>
 
-![Actual model draft inspected beside its historical source](assets/tacitus-policy-workflow.png)
+[Current project status](docs/project-status.md) · [Verified workflows](docs/VERIFIED_WORKFLOWS_2026-11-10.md) · [Project roles and verification](docs/PORTFOLIO_REVIEW.md) · [Validation protocol](docs/VALIDATION_PROTOCOL.md)
 
-Cloudflare model execution and local evidence checks are recorded. A valid citation does not establish semantic entailment; broader saliency and efficiency benefits remain to be measured. [Research index: 12 primary paper links and implementation notes](https://github.com/sargonxg/TACITUS-Knowledge-Pipeline-open/tree/main/research).
+[Current readiness](docs/FRESH_START.md) · [Repository priorities](docs/REPOSITORY_PRIORITIES.md) · [Growth plan](docs/GROWTH_PLAN.md) · [Engineering review](docs/PORTFOLIO_ENGINEERING_REVIEW_2026-11-07.md) · [Public repository audit](scripts/audit_portfolio.py) · [Profile presentation](docs/PROFILE-PRESENTATION.md)
 
-For writing, start with [The Conflict Resolution Machine and the Human Remainder](https://concordiadiscors.org/the-conflict-resolution-machine-and-the-human-remainder/) or [The Questioner and the Republic](https://concordiadiscors.org/the-questioner-and-the-republic-on-alexander-karps-moral-vision-of-technology/), both co-bylined with CDM Editors.
-
-[Project status and experimental work](docs/project-status.md) · [Profile presentation and suggested pins](docs/PROFILE-PRESENTATION.md)
-
-[Engineering review and 30 improvements](docs/PORTFOLIO_ENGINEERING_REVIEW_2026-11-07.md) · [Reproduce the public repository audit](scripts/audit_portfolio.py)
-
-[Browse all public projects, prototypes and upstream references](docs/PUBLIC_PROJECT_MAP.md) · [Verified workflows and measured limits](docs/VERIFIED_WORKFLOWS_2026-11-10.md)
+</details>

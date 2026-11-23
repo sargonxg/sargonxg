@@ -1,10 +1,10 @@
 # GitHub profile presentation
 
-The README and facts record are generated from the same approved professional facts as the personal website and printable profile. The source generator lives in Gc-personal-site/scripts/create-github-profile.mjs. No private CV contacts, referees or administrative records are included.
+The profile README builds on the approved professional facts used in the personal website and printable profile. The facts record is in [profile-facts.json](profile-facts.json).
 
 ## Suggested account bio
 
-Foreign-policy professional. Former UN Political Affairs Officer, Syria team. AI, Middle East and multilateralism. Building TACITUS as an independent project.
+Multilateral diplomacy and political analysis. Former UN Political Affairs Officer, Syria team. Building tools for policy research at @TACITUS-me.
 
 ## Suggested three public pins
 
@@ -16,6 +16,6 @@ An archived early pipeline should not lead the active portfolio. Archive history
 
 ## Account controls
 
-Repository commits update this README and its facts record. Account-level bio and pinned cards are managed separately in GitHub profile settings. The wording and pin list above are prepared for those controls; this document does not claim that account-level settings changed.
+The profile README lives in this repository. The account bio and pinned cards are managed in GitHub profile settings.
 
 The reference implementation is labelled separately from the two working research tools. Next Diplomacy remains in development; a public published issue could not be verified through the available connection.
